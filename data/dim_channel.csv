@@ -1,0 +1,9 @@
+ChannelID,ChannelName,ChannelType,AvgCAC_USD
+1,Organic Search,Organic,0.0
+2,Paid Search,Paid,18.5
+3,Email,Owned,4.2
+4,Social Organic,Organic,0.0
+5,Paid Social,Paid,22.0
+6,Direct,Direct,0.0
+7,Referral,Referral,6.0
+8,Affiliate,Paid,12.0

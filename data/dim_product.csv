@@ -1,0 +1,121 @@
+ProductID,ProductName,Category,SubCategory,ListPrice_USD,COGS_USD,GrossMarginPct,Supplier,IsActive
+1,Essential Bags Set 1,Accessories,Bags,85.19,37.38,56.12,"Rodriguez, Figueroa and Sanchez",True
+2,Classic Bedding Edition 2,Home & Living,Bedding,59.7,36.56,38.76,Doyle Ltd,True
+3,Modern Watches Pack 3,Accessories,Watches,33.09,11.17,66.25,"Mcclain, Miller and Henderson",True
+4,Natural Bags Collection 4,Accessories,Bags,86.85,39.96,53.99,Davis and Sons,True
+5,Urban Jackets Kit 5,Apparel,Jackets,25.87,11.57,55.26,"Guzman, Hoffman and Baldwin",True
+6,Natural T-Shirts Series 6,Apparel,T-Shirts,74.19,30.06,59.48,"Gardner, Robinson and Lawrence",True
+7,Premium Decor Set 7,Home & Living,Decor,58.72,26.48,54.91,Blake and Sons,True
+8,Natural T-Shirts Collection 8,Apparel,T-Shirts,83.86,26.5,68.4,"Henderson, Ramirez and Lewis",True
+9,Signature Kitchen Set 9,Home & Living,Kitchen,43.39,24.72,43.03,Garcia-James,False
+10,Pro Watches Edition 10,Accessories,Watches,74.96,27.47,63.35,Abbott-Munoz,True
+11,Premium Activewear Edition 11,Apparel,Activewear,34.91,16.14,53.76,Blair PLC,True
+12,Heritage Storage Set 12,Home & Living,Storage,35.81,20.39,43.06,Dudley Group,True
+13,Essential Scarves Collection 13,Accessories,Scarves,98.93,33.57,66.07,Arnold Ltd,True
+14,Heritage Decor Pack 14,Home & Living,Decor,71.28,36.87,48.28,"Mcclure, Ward and Lee",True
+15,Premium Haircare Kit 15,Beauty & Wellness,Haircare,39.0,16.66,57.27,Williams and Sons,True
+16,Heritage Scarves Pack 16,Accessories,Scarves,71.26,28.77,59.62,Galloway-Wyatt,True
+17,Modern Skincare Kit 17,Beauty & Wellness,Skincare,48.06,20.25,57.86,James Group,True
+18,Premium Bags Set 18,Accessories,Bags,42.18,19.42,53.95,"Flowers, Martin and Kelly",True
+19,Classic Activewear Kit 19,Apparel,Activewear,76.67,31.66,58.71,"Adams, Zuniga and Wong",True
+20,Modern Kitchen Kit 20,Home & Living,Kitchen,27.31,11.93,56.3,"Reid, Ferguson and Sanchez",False
+21,Urban Supplements Kit 21,Beauty & Wellness,Supplements,37.9,15.99,57.8,Gray-Mayo,True
+22,Classic Hoodies Set 22,Apparel,Hoodies,85.61,25.2,70.57,"Watts, Robinson and Nguyen",True
+23,Active Activewear Bundle 23,Apparel,Activewear,76.97,39.66,48.47,Perez Inc,True
+24,Modern Watches Kit 24,Accessories,Watches,54.62,24.42,55.29,Morales-Jones,True
+25,Urban Jackets Pack 25,Apparel,Jackets,48.72,17.96,63.14,"Walter, Edwards and Rios",False
+26,Heritage Boots Bundle 26,Footwear,Boots,56.35,29.05,48.45,Wilkerson-Day,True
+27,Classic T-Shirts Series 27,Apparel,T-Shirts,72.5,38.72,46.59,Baker and Sons,True
+28,Modern Hoodies Edition 28,Apparel,Hoodies,39.44,16.52,58.11,"Hoffman, Baker and Richards",True
+29,Natural Fitness Edition 29,Beauty & Wellness,Fitness,24.88,8.26,66.82,"Ross, Robinson and Bright",True
+30,Premium Belts Set 30,Accessories,Belts,54.66,20.95,61.68,"Snyder, Campos and Callahan",True
+31,Classic Bags Edition 31,Accessories,Bags,52.65,21.86,58.48,Burton Ltd,True
+32,Pro Hats Kit 32,Accessories,Hats,54.5,23.46,56.96,Carlson-Cruz,False
+33,Premium Sneakers Series 33,Footwear,Sneakers,39.81,13.94,64.98,"Ferrell, Rice and Maddox",False
+34,Natural Kitchen Series 34,Home & Living,Kitchen,46.07,23.24,49.55,Frazier Inc,True
+35,Active Pants Collection 35,Apparel,Pants,38.42,13.0,66.17,"Dyer, Potter and Mack",True
+36,Premium Fitness Bundle 36,Beauty & Wellness,Fitness,20.2,7.59,62.42,Rodriguez-Graham,True
+37,Modern Jackets Kit 37,Apparel,Jackets,22.4,8.79,60.77,Smith-Bowen,True
+38,Heritage Activewear Series 38,Apparel,Activewear,24.17,12.08,50.02,"Baker, Mason and White",True
+39,Heritage T-Shirts Bundle 39,Apparel,T-Shirts,90.5,35.86,60.38,Harrell LLC,True
+40,Signature Activewear Edition 40,Apparel,Activewear,61.52,28.58,53.54,"Romero, Gonzalez and Brooks",True
+41,Signature Sandals Pack 41,Footwear,Sandals,72.6,31.37,56.79,Ryan PLC,True
+42,Heritage Bedding Series 42,Home & Living,Bedding,16.69,7.86,52.91,George Group,True
+43,Classic Jackets Edition 43,Apparel,Jackets,28.2,12.85,54.42,Rodriguez LLC,True
+44,Modern Activewear Series 44,Apparel,Activewear,72.17,27.77,61.52,Allen-Allen,True
+45,Classic Bags Series 45,Accessories,Bags,104.14,48.57,53.36,"Arroyo, Miller and Tucker",True
+46,Pro Jackets Set 46,Apparel,Jackets,64.57,23.0,64.38,Spence PLC,True
+47,Premium Pants Series 47,Apparel,Pants,37.34,11.38,69.52,Anderson Group,True
+48,Signature Bedding Edition 48,Home & Living,Bedding,16.26,7.07,56.51,"Martin, Rose and Obrien",True
+49,Essential Scarves Bundle 49,Accessories,Scarves,67.85,32.03,52.8,Hickman Ltd,True
+50,Urban Boots Kit 50,Footwear,Boots,75.83,44.7,41.05,"Harris, Collins and Carney",False
+51,Classic Jackets Collection 51,Apparel,Jackets,34.18,16.5,51.74,"Brooks, Lam and Hayes",True
+52,Pro Fitness Kit 52,Beauty & Wellness,Fitness,63.61,16.7,73.74,Walker LLC,True
+53,Urban Kitchen Kit 53,Home & Living,Kitchen,81.22,49.88,38.59,Chapman and Sons,False
+54,Classic Kitchen Pack 54,Home & Living,Kitchen,35.74,15.4,56.9,"Robinson, Jones and Welch",True
+55,Urban Haircare Collection 55,Beauty & Wellness,Haircare,22.58,4.98,77.96,Jones Inc,True
+56,Urban Haircare Collection 56,Beauty & Wellness,Haircare,13.25,5.32,59.83,Jones-Young,True
+57,Modern Supplements Collection 57,Beauty & Wellness,Supplements,30.61,9.87,67.74,"Washington, Ryan and Cummings",False
+58,Signature Jackets Series 58,Apparel,Jackets,31.75,9.21,70.99,"Johnston, Sanchez and Kennedy",True
+59,Classic Sandals Pack 59,Footwear,Sandals,76.46,27.06,64.61,Lee-Davis,False
+60,Modern T-Shirts Set 60,Apparel,T-Shirts,72.58,39.88,45.05,Gomez-Jenkins,True
+61,Urban Kitchen Bundle 61,Home & Living,Kitchen,42.95,25.91,39.68,"Brown, Valdez and Lucas",True
+62,Urban Decor Pack 62,Home & Living,Decor,53.53,24.62,54.01,Powell LLC,True
+63,Essential Hats Bundle 63,Accessories,Hats,54.36,14.4,73.51,Wright and Sons,True
+64,Heritage Sneakers Bundle 64,Footwear,Sneakers,63.87,34.97,45.25,"West, Henderson and Ramirez",True
+65,Essential Athletic Set 65,Footwear,Athletic,99.18,46.83,52.78,Baxter Inc,True
+66,Pro Watches Set 66,Accessories,Watches,46.18,13.64,70.46,Morton-Chase,True
+67,Active Kitchen Bundle 67,Home & Living,Kitchen,17.81,9.99,43.88,Williams PLC,True
+68,Natural Pants Pack 68,Apparel,Pants,86.23,34.03,60.54,Novak and Sons,True
+69,Classic T-Shirts Kit 69,Apparel,T-Shirts,86.73,27.55,68.23,Russell Group,True
+70,Classic Activewear Pack 70,Apparel,Activewear,53.77,21.48,60.05,Hancock Inc,True
+71,Heritage Sandals Kit 71,Footwear,Sandals,125.25,47.23,62.29,Gray Group,True
+72,Active Watches Pack 72,Accessories,Watches,56.81,26.14,53.98,House-Glover,True
+73,Pro Jackets Collection 73,Apparel,Jackets,76.97,31.5,59.08,Henderson-Bernard,True
+74,Modern Kitchen Series 74,Home & Living,Kitchen,36.11,19.62,45.67,"Stanley, Tucker and Lee",True
+75,Natural Hoodies Collection 75,Apparel,Hoodies,72.39,38.56,46.73,Novak PLC,True
+76,Heritage Boots Set 76,Footwear,Boots,114.12,57.36,49.74,"Daniels, Adkins and Brown",True
+77,Signature Fitness Kit 77,Beauty & Wellness,Fitness,37.28,7.99,78.57,"Woods, Calhoun and Schmidt",True
+78,Heritage Fitness Edition 78,Beauty & Wellness,Fitness,40.53,10.79,73.37,Yu Inc,True
+79,Natural Pants Set 79,Apparel,Pants,20.23,9.29,54.08,Jones Inc,True
+80,Natural Boots Bundle 80,Footwear,Boots,128.17,59.79,53.35,"Hensley, Powell and David",True
+81,Premium Pants Collection 81,Apparel,Pants,28.45,12.1,57.47,"Sanchez, Wheeler and Harvey",True
+82,Signature Jackets Kit 82,Apparel,Jackets,43.99,13.75,68.75,Sandoval-Cunningham,False
+83,Premium Sneakers Collection 83,Footwear,Sneakers,79.68,32.88,58.73,Donovan-Harris,True
+84,Pro T-Shirts Kit 84,Apparel,T-Shirts,76.08,22.34,70.64,"Edwards, Baker and Anderson",True
+85,Pro Hoodies Pack 85,Apparel,Hoodies,54.46,28.27,48.09,"Evans, Stewart and Walton",True
+86,Classic Kitchen Kit 86,Home & Living,Kitchen,60.84,23.65,61.13,Smith PLC,True
+87,Heritage Skincare Set 87,Beauty & Wellness,Skincare,42.67,9.29,78.22,"Ferrell, Jones and Lewis",False
+88,Pro Boots Series 88,Footwear,Boots,42.22,18.04,57.27,Anderson-Bailey,True
+89,Premium Sneakers Collection 89,Footwear,Sneakers,110.64,50.73,54.15,Suarez LLC,True
+90,Natural Bags Kit 90,Accessories,Bags,62.57,25.95,58.53,Moore-Bass,True
+91,Essential Sandals Pack 91,Footwear,Sandals,95.38,37.47,60.72,"Turner, Riggs and Roman",True
+92,Active Belts Pack 92,Accessories,Belts,73.13,19.75,72.99,"Smith, Montoya and Evans",True
+93,Classic Decor Collection 93,Home & Living,Decor,39.85,22.36,43.89,"Garcia, Humphrey and Baker",False
+94,Urban Pants Series 94,Apparel,Pants,61.88,22.87,63.04,Newton and Sons,True
+95,Urban Athletic Collection 95,Footwear,Athletic,55.15,22.09,59.95,Campbell-Clark,False
+96,Pro Decor Series 96,Home & Living,Decor,57.13,28.34,50.4,Harris-Walters,True
+97,Active Boots Pack 97,Footwear,Boots,100.61,44.12,56.15,Wagner-King,True
+98,Heritage Hoodies Collection 98,Apparel,Hoodies,49.14,23.8,51.57,Davis Group,True
+99,Urban Scarves Set 99,Accessories,Scarves,109.68,39.75,63.76,Williams-Cook,True
+100,Classic Boots Set 100,Footwear,Boots,46.46,25.64,44.81,Walsh LLC,True
+101,Signature Kitchen Set 101,Home & Living,Kitchen,30.17,13.36,55.73,Figueroa PLC,True
+102,Signature Decor Edition 102,Home & Living,Decor,88.56,37.21,57.98,"Patterson, Smith and Jones",True
+103,Modern Boots Collection 103,Footwear,Boots,61.06,21.76,64.36,"Mckee, Gardner and Davenport",True
+104,Signature Pants Pack 104,Apparel,Pants,25.9,14.16,45.33,"Tran, Jordan and Williams",True
+105,Classic Sneakers Kit 105,Footwear,Sneakers,58.99,22.69,61.54,Nolan-Flynn,True
+106,Signature Sneakers Series 106,Footwear,Sneakers,49.41,19.63,60.28,Nolan and Sons,False
+107,Pro Pants Kit 107,Apparel,Pants,64.69,21.77,66.35,"Wright, Garcia and Deleon",True
+108,Natural Athletic Collection 108,Footwear,Athletic,63.25,28.65,54.71,Dickson-Brady,True
+109,Pro T-Shirts Collection 109,Apparel,T-Shirts,90.96,44.93,50.61,Hancock and Sons,True
+110,Natural Hoodies Pack 110,Apparel,Hoodies,60.5,30.72,49.23,Johnson-Doyle,True
+111,Active Sneakers Series 111,Footwear,Sneakers,56.99,24.12,57.67,Patton-Jenkins,True
+112,Essential Haircare Collection 112,Beauty & Wellness,Haircare,34.53,10.84,68.61,"Shields, Cochran and Adams",True
+113,Heritage Hoodies Collection 113,Apparel,Hoodies,79.03,30.77,61.07,"Rodriguez, Brennan and Garrison",True
+114,Modern Sandals Bundle 114,Footwear,Sandals,101.47,36.97,63.57,Gonzalez Group,True
+115,Heritage T-Shirts Collection 115,Apparel,T-Shirts,86.49,30.42,64.83,Torres-Pope,True
+116,Signature Activewear Bundle 116,Apparel,Activewear,63.21,34.41,45.56,Walker Ltd,True
+117,Signature Storage Edition 117,Home & Living,Storage,54.4,27.96,48.61,Ross LLC,False
+118,Natural Athletic Collection 118,Footwear,Athletic,127.06,61.31,51.75,Rasmussen LLC,True
+119,Signature Hoodies Set 119,Apparel,Hoodies,43.39,15.74,63.73,May-Ross,False
+120,Urban Bedding Series 120,Home & Living,Bedding,49.66,27.04,45.55,"Rivera, Johnson and Wiley",False

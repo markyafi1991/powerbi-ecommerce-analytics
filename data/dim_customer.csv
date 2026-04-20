@@ -1,0 +1,801 @@
+CustomerID,FirstName,LastName,Email,Region,City,Segment,AcquisitionChannelID,FirstOrderDate,LTV_USD,CAC_USD,LTV_CAC_Ratio
+1,Jose,Carpenter,benjamin96@example.com,Ontario,Samuelhaven,Potential,3,2022-07-01,59.56,5.54,10.75
+2,Darrell,Lam,jonathanfletcher@example.org,Quebec,West Ryan,Lost,4,2022-06-02,57.59,3.8,15.16
+3,Stacy,Mccall,elizabeth14@example.net,New Brunswick,Elizabethmouth,Lost,3,2022-04-05,59.61,3.87,15.4
+4,Richard,Phillips,jamesortega@example.com,Manitoba,New Ashley,Lost,1,2022-02-14,62.71,2.93,21.4
+5,Richard,Bass,justin69@example.net,Ontario,Stevenmouth,Loyal,3,2022-01-08,259.87,2.73,95.19
+6,Emma,Dixon,donnacampbell@example.net,Manitoba,Clarencebury,Potential,1,2022-03-20,56.75,5.0,11.35
+7,Emily,Walker,dylanwilliams@example.com,British Columbia,South Robertshire,Lost,8,2022-02-09,78.3,18.01,4.35
+8,James,Horton,jross@example.net,Manitoba,Port Michelleville,At Risk,2,2022-05-13,98.42,19.74,4.99
+9,Kimberly,Robinson,pwilliams@example.org,Quebec,Andersonmouth,Loyal,4,2022-07-17,206.92,0.01,20692.0
+10,Elizabeth,Travis,stephanie79@example.net,Ontario,Rivasside,Lost,1,2022-01-16,33.35,2.2,15.16
+11,Sean,Moore,wcole@example.org,Alberta,Katiehaven,Potential,4,2022-06-13,135.3,0.01,13530.0
+12,Todd,Allen,sjones@example.org,New Brunswick,Matthewside,Potential,5,2022-05-10,61.5,22.14,2.78
+13,Christopher,Hernandez,tbenson@example.org,Ontario,South Rickside,At Risk,6,2022-01-03,134.54,0.01,13454.0
+14,Steven,Brown,xprice@example.net,Ontario,Port Nicoleshire,At Risk,1,2022-08-12,162.74,0.78,208.64
+15,Omar,Smith,kenneth66@example.net,British Columbia,South Jeffrey,Potential,6,2022-03-01,142.29,0.86,165.45
+16,Ryan,Johnson,elizabeth62@example.com,Alberta,New Amanda,Champions,6,2022-02-13,526.21,5.5,95.67
+17,Rebecca,Vargas,millerroy@example.com,Quebec,North Jorge,Potential,2,2022-11-28,78.29,26.07,3.0
+18,Mark,Gibson,kathleen64@example.com,Quebec,Maryfort,Potential,5,2022-07-21,64.71,20.46,3.16
+19,Andrew,Ryan,jeffrey10@example.org,Ontario,East Mary,Potential,5,2022-01-03,117.45,29.57,3.97
+20,Christine,Allen,kcaldwell@example.org,Manitoba,Lyonsstad,At Risk,1,2022-05-01,123.27,1.31,94.1
+21,Gary,Lawson,stricklandfrank@example.com,Ontario,New Anthonyport,Loyal,1,2022-12-31,206.74,4.44,46.56
+22,Barbara,Odonnell,tsanders@example.org,Quebec,New Hannahbury,Loyal,2,2022-01-19,251.82,26.2,9.61
+23,Curtis,Barton,hoganashlee@example.org,Ontario,Amandastad,Loyal,4,2022-06-09,295.46,6.06,48.76
+24,Casey,Holland,atkinsonlynn@example.org,Ontario,Yumouth,Champions,3,2022-11-21,804.23,8.37,96.08
+25,Jasmine,Graham,christina87@example.com,Ontario,Petersenshire,At Risk,2,2022-05-11,126.69,25.06,5.06
+26,Joseph,Christian,ramirezshannon@example.com,Manitoba,Rogersfort,Champions,4,2022-11-27,1011.81,1.26,803.02
+27,Melissa,White,michaelgreen@example.com,Saskatchewan,Angelahaven,Lost,3,2022-01-19,24.08,10.85,2.22
+28,Stacy,Miller,wfreeman@example.org,Quebec,Brewerfort,Loyal,5,2022-02-25,302.13,27.79,10.87
+29,Shane,Smith,jeffrey34@example.net,Quebec,Thomashaven,Loyal,1,2023-08-27,395.25,2.42,163.33
+30,Maurice,Barajas,michael74@example.com,Ontario,Jerryborough,Loyal,2,2022-03-06,237.56,18.84,12.61
+31,Leslie,Newton,jamesrodgers@example.com,Quebec,Tinaborough,Champions,3,2022-10-30,973.52,6.66,146.17
+32,Kenneth,Ward,alexis82@example.com,Manitoba,North Angelaberg,At Risk,7,2022-06-08,169.66,9.03,18.79
+33,Dana,Mullins,salasaudrey@example.com,Quebec,Alexanderburgh,Loyal,3,2022-07-06,197.7,6.09,32.46
+34,Tammy,King,ewilson@example.com,Ontario,Joneston,Potential,8,2022-12-03,51.24,18.93,2.71
+35,Edward,Shepherd,christopher31@example.net,Alberta,Obrienbury,Champions,4,2022-12-08,1106.24,0.01,110624.0
+36,Kimberly,James,levans@example.com,Quebec,Ashleyton,Lost,1,2022-04-19,72.65,5.61,12.95
+37,Chelsea,Singh,colleenbaker@example.org,Quebec,East Glenn,Potential,5,2022-12-03,121.7,21.69,5.61
+38,Charles,Smith,enorris@example.com,Ontario,East Keithport,Potential,4,2022-01-15,43.21,1.52,28.43
+39,Jacqueline,Gibson,sandrafrench@example.net,Nova Scotia,South Danny,At Risk,1,2022-12-17,130.18,6.09,21.38
+40,Jeffrey,Hernandez,margaret10@example.org,Ontario,Brookeshire,Loyal,2,2022-04-24,461.98,22.33,20.69
+41,Samantha,Gonzales,sbarker@example.com,Alberta,Vincentfort,Lost,5,2022-01-03,75.88,23.12,3.28
+42,Samuel,George,mnavarro@example.com,Saskatchewan,North Jeremyshire,Potential,5,2023-06-15,83.7,19.1,4.38
+43,Brenda,Smith,barbara27@example.net,Ontario,Moonburgh,Champions,2,2022-10-16,906.2,15.72,57.65
+44,Wendy,Graham,ecosta@example.com,Ontario,Cookville,Potential,7,2022-06-03,50.69,9.2,5.51
+45,Mia,Rivera,zroberts@example.net,Ontario,South Christopherview,Potential,4,2022-12-30,127.62,5.21,24.5
+46,Marcus,Cordova,ahancock@example.net,Ontario,Gutierrezborough,Loyal,2,2022-03-08,323.9,20.09,16.12
+47,April,Dean,wgarrett@example.org,Alberta,West Andrea,At Risk,6,2022-04-16,130.58,0.01,13058.0
+48,Sara,Kim,omartinez@example.net,British Columbia,Lake Eric,Potential,6,2022-08-16,131.99,0.01,13199.0
+49,Andrea,Tran,walkermaureen@example.org,British Columbia,Valentineberg,Potential,1,2023-01-05,94.55,0.01,9455.0
+50,Tyrone,Moran,robert77@example.org,New Brunswick,Arnoldfurt,Potential,1,2022-06-07,75.79,3.47,21.84
+51,James,Greene,michellehill@example.com,Quebec,Sarahhaven,Potential,2,2022-04-12,137.96,20.91,6.6
+52,Joseph,Smith,mary97@example.org,New Brunswick,Ryanstad,Loyal,1,2022-08-01,350.47,1.66,211.13
+53,Martin,Hines,ugibson@example.org,Ontario,New Patrick,Potential,7,2022-05-25,52.11,7.36,7.08
+54,Melissa,Jenkins,julie66@example.net,Ontario,South Tammie,Potential,3,2022-05-15,100.93,7.68,13.14
+55,David,Sanford,molly71@example.net,Quebec,Smithberg,Loyal,3,2022-11-29,358.57,11.73,30.57
+56,Robert,Pena,charlesharrington@example.com,British Columbia,Cindyfurt,Loyal,7,2022-07-01,220.45,11.42,19.3
+57,Debra,Christian,ofinley@example.net,Ontario,Brennanton,Potential,3,2022-07-01,55.13,11.2,4.92
+58,Christina,Young,wendy16@example.org,British Columbia,South Garrettport,Champions,1,2022-01-20,571.78,0.43,1329.72
+59,Rebecca,Williams,carternicholas@example.org,Manitoba,New Robert,Lost,1,2022-04-03,77.94,0.84,92.79
+60,Erin,White,christianpitts@example.net,British Columbia,South Roberta,Champions,5,2022-03-13,860.09,26.6,32.33
+61,Douglas,Murray,steve07@example.com,Ontario,North Scott,At Risk,1,2022-03-06,138.02,4.65,29.68
+62,Michael,Matthews,dvaughn@example.com,Quebec,South Melissa,Champions,1,2022-07-06,652.75,0.01,65275.0
+63,Daniel,James,bailey40@example.net,Ontario,Hillshire,At Risk,3,2022-10-13,142.1,8.47,16.78
+64,Michelle,Osborne,lozanojulie@example.com,British Columbia,New Laurie,Potential,5,2022-03-06,47.78,19.74,2.42
+65,Jeffery,Lee,erica21@example.net,Ontario,West Kristinaton,Champions,1,2023-07-30,1140.64,2.87,397.44
+66,Bethany,Oconnor,browningmark@example.com,Quebec,East David,Potential,3,2022-01-03,118.97,2.15,55.33
+67,Amber,Mata,maria47@example.com,Quebec,Lindamouth,Potential,7,2022-05-28,107.25,8.24,13.02
+68,Sydney,Taylor,michelleramsey@example.com,Ontario,Christopherfurt,Potential,6,2022-01-07,136.48,6.41,21.29
+69,Alexander,Herrera,vrichardson@example.net,Quebec,Brendastad,Lost,5,2022-09-11,37.24,29.7,1.25
+70,Daniel,Hall,harveysherry@example.com,Ontario,Lake Bryan,Loyal,3,2022-07-28,422.64,4.69,90.12
+71,Madison,Blankenship,debra12@example.org,Ontario,West Wendyville,At Risk,5,2022-08-20,194.33,26.49,7.34
+72,Colton,Clay,paulwatson@example.net,Quebec,Matthewsberg,Potential,1,2022-04-05,107.78,0.01,10778.0
+73,Nicole,Pena,rgilbert@example.org,British Columbia,Jeffmouth,Potential,1,2022-07-28,142.56,1.25,114.05
+74,Stephanie,Foley,pollardmichael@example.net,Ontario,Bruceview,Champions,1,2023-08-04,931.97,6.87,135.66
+75,James,Martinez,ndavis@example.net,Manitoba,North Kristinbury,Lost,1,2022-02-15,74.87,0.01,7487.0
+76,Vanessa,Buchanan,caseyhubbard@example.org,British Columbia,Port Molly,Champions,1,2022-09-13,701.59,2.21,317.46
+77,Mark,Hernandez,ramireztracey@example.org,Alberta,Laurenville,Champions,1,2022-03-28,687.62,6.19,111.09
+78,Donna,Johnson,howardkristina@example.net,Ontario,Alfredview,Champions,3,2022-12-23,745.47,6.33,117.77
+79,Brian,Harmon,reesethomas@example.com,British Columbia,South Williamton,Loyal,2,2022-03-26,314.7,25.88,12.16
+80,Jessica,Kerr,stephen00@example.com,Manitoba,Simmonsville,Lost,1,2022-05-01,70.34,0.17,413.76
+81,Tracy,Browning,lammarc@example.org,Ontario,East Joshuashire,Lost,3,2022-06-30,75.26,11.88,6.34
+82,Amy,Nguyen,shawn96@example.org,Ontario,Port Dianaside,Loyal,1,2022-04-28,436.74,2.53,172.62
+83,Jennifer,Lewis,abeasley@example.com,Quebec,Rossville,Loyal,8,2022-10-20,379.06,17.73,21.38
+84,Larry,Edwards,nicholas27@example.org,British Columbia,Port Christopherchester,Lost,1,2022-02-11,70.68,7.35,9.62
+85,Colin,Rodgers,angelawillis@example.net,Alberta,Elizabethchester,At Risk,5,2022-09-28,163.62,20.79,7.87
+86,Michael,Ortega,uparrish@example.org,British Columbia,Carolinestad,Loyal,5,2022-06-08,280.99,25.61,10.97
+87,Dale,Romero,dianewalker@example.org,British Columbia,Meganstad,At Risk,2,2022-02-05,95.2,26.11,3.65
+88,Danny,Ramirez,lindsaybruce@example.net,Saskatchewan,New Sarahview,Loyal,2,2022-04-10,365.15,17.68,20.65
+89,Anthony,Nelson,sandra50@example.org,Alberta,New Diane,Loyal,1,2022-04-18,491.41,3.03,162.18
+90,Chad,Figueroa,davisalyssa@example.com,Quebec,Chavezburgh,Champions,2,2022-02-04,602.23,23.7,25.41
+91,Mitchell,Griffith,wareeric@example.net,Quebec,Lake Christophermouth,Potential,6,2022-03-26,107.45,5.27,20.39
+92,Ebony,Tucker,nperry@example.net,British Columbia,West Russellport,Potential,1,2022-02-09,111.13,2.02,55.01
+93,Erika,Watkins,brandon69@example.org,Quebec,East Kevinborough,At Risk,2,2022-05-03,172.76,20.37,8.48
+94,Katrina,Duran,mark07@example.net,Ontario,Thompsonfurt,Potential,1,2022-05-26,122.04,1.6,76.28
+95,Amanda,Hall,charles06@example.org,British Columbia,Morsemouth,At Risk,8,2022-11-07,94.55,16.54,5.72
+96,Barbara,Berry,zroberts@example.org,Quebec,Georgemouth,Potential,4,2022-07-18,130.32,3.49,37.34
+97,Marilyn,Gillespie,kimdaniel@example.com,Quebec,Warrenfurt,Lost,8,2022-11-07,67.28,10.49,6.41
+98,Monica,Reese,masonjackson@example.net,British Columbia,New Williamstad,Loyal,2,2024-01-04,367.94,21.38,17.21
+99,Michael,Mullen,joelthomas@example.org,Ontario,New Eric,Lost,1,2022-01-07,37.11,3.51,10.57
+100,Katherine,Jones,kmarshall@example.net,Ontario,Maldonadoshire,Loyal,1,2022-01-19,420.71,6.55,64.23
+101,Dawn,Downs,michelle52@example.com,Alberta,South Scottport,Potential,2,2022-03-27,43.32,16.24,2.67
+102,Laura,Vargas,william47@example.com,Quebec,North Miguelport,Lost,2,2023-02-15,61.11,21.86,2.8
+103,Chase,Lin,gilbertwilliam@example.com,Quebec,South Reginashire,Potential,6,2022-02-12,103.29,7.2,14.35
+104,Denise,Morris,dmason@example.com,British Columbia,Port Rachelmouth,Loyal,8,2022-05-08,377.47,9.86,38.28
+105,Toni,Miller,benjaminzimmerman@example.com,British Columbia,West Nathan,Champions,6,2022-07-15,762.96,0.4,1907.4
+106,Justin,Ortiz,erika05@example.org,Ontario,Codyfurt,Lost,6,2022-09-11,28.54,1.18,24.19
+107,Justin,Cummings,mathewaguilar@example.org,Ontario,Kylefurt,Potential,6,2022-02-23,146.0,0.01,14600.0
+108,David,Fletcher,collinsnicholas@example.com,Alberta,Lake Jacqueline,At Risk,1,2022-03-31,144.76,3.46,41.84
+109,Stacey,Osborn,lucasrodney@example.com,British Columbia,West Kyleborough,At Risk,1,2022-04-10,189.97,0.01,18997.0
+110,Matthew,Miranda,jeremytaylor@example.org,Ontario,Meganville,At Risk,5,2022-04-11,203.55,21.43,9.5
+111,William,Fernandez,stanleynancy@example.net,Ontario,New Nicholas,Potential,2,2022-07-27,48.41,26.29,1.84
+112,Francis,Guerra,jenniferwilliams@example.com,Quebec,South Cheryl,Loyal,4,2022-08-21,375.17,0.8,468.96
+113,Karen,Bowers,amandacollins@example.com,Quebec,West Erika,Loyal,8,2022-07-16,434.47,14.69,29.58
+114,Ashley,Alexander,kimberly88@example.com,Ontario,Port James,Champions,2,2022-04-07,793.11,16.11,49.23
+115,Cassandra,Salas,davidsonmorgan@example.net,Saskatchewan,Lake Meghanville,Lost,6,2024-02-16,53.52,2.33,22.97
+116,Justin,Hines,shannon82@example.com,British Columbia,East Lisastad,Loyal,4,2022-04-30,439.44,1.59,276.38
+117,Sarah,Perry,pshaw@example.com,Alberta,West Jeffreymouth,Champions,5,2022-03-25,917.99,21.56,42.58
+118,Sarah,Combs,lacey20@example.com,Ontario,Hortonberg,Loyal,5,2022-02-19,324.79,20.61,15.76
+119,Katherine,Harrison,bullockandrew@example.org,Ontario,New Shelby,At Risk,1,2022-05-24,172.44,5.21,33.1
+120,Chelsea,Henderson,john10@example.org,Ontario,Fowlermouth,At Risk,5,2022-12-28,188.89,21.69,8.71
+121,Bryan,Copeland,bcarlson@example.net,Quebec,Lake Douglas,Champions,5,2023-08-26,764.59,20.9,36.58
+122,Ruben,Mendez,ashleylopez@example.net,Ontario,New Theresaland,Lost,2,2022-02-26,66.19,18.28,3.62
+123,Stephanie,Stephens,myerstheodore@example.net,New Brunswick,Zavalaview,Lost,5,2022-12-10,70.68,29.57,2.39
+124,Julie,Kelly,cooperjessica@example.net,Quebec,Port Bonniemouth,Lost,3,2023-11-30,75.89,4.27,17.77
+125,Dennis,Bell,lisa27@example.net,Quebec,Welchberg,Loyal,1,2022-01-05,327.75,0.01,32775.0
+126,Bryan,Parsons,mjohnson@example.org,Alberta,North Leslie,Potential,2,2022-05-17,136.42,24.39,5.59
+127,Kyle,Sanders,wking@example.net,Quebec,West Michael,Loyal,4,2022-11-04,385.17,0.01,38517.0
+128,Kimberly,Glenn,joshua56@example.com,British Columbia,Klinefurt,At Risk,3,2022-04-26,117.8,6.27,18.79
+129,Matthew,Lopez,zrichardson@example.net,Ontario,Lauriechester,At Risk,1,2022-04-07,133.52,6.16,21.68
+130,Christian,Morrison,amymorris@example.org,Quebec,Donnaport,Potential,6,2024-03-24,142.24,4.02,35.38
+131,Sean,Robbins,hannahbell@example.org,Quebec,Christinachester,Loyal,2,2022-03-11,195.19,22.22,8.78
+132,Joshua,Whitney,jonesdana@example.com,Quebec,North Douglas,Potential,3,2022-10-26,139.85,4.92,28.42
+133,Cathy,Harrington,martinezjoel@example.net,Ontario,Michaelshire,Potential,4,2022-10-07,108.76,0.01,10876.0
+134,Antonio,Hernandez,xrush@example.com,Ontario,New Devinstad,At Risk,2,2022-04-09,156.02,22.91,6.81
+135,Raymond,Banks,susanjohnson@example.org,Ontario,Holmesside,Loyal,8,2023-01-12,200.87,19.0,10.57
+136,David,Hampton,nlewis@example.com,New Brunswick,Gonzalezberg,Champions,1,2022-05-31,549.43,7.29,75.37
+137,Melissa,Hayes,zosborn@example.net,Ontario,Elizabethland,Potential,2,2022-02-21,63.6,18.33,3.47
+138,Andrea,Roberts,melissa25@example.net,Quebec,North Tracie,Potential,8,2022-05-16,109.52,17.72,6.18
+139,Laura,Young,jjohnson@example.net,Quebec,Tannerside,Loyal,5,2022-02-27,254.09,24.66,10.3
+140,David,Henson,parkeryvonne@example.net,Ontario,Foxchester,Lost,3,2022-01-27,60.36,5.71,10.57
+141,Madeline,Jones,dawn77@example.net,Quebec,Davidside,Potential,1,2022-09-13,114.33,6.81,16.79
+142,Danielle,White,ryanbartlett@example.org,British Columbia,New Ericburgh,Potential,1,2022-03-30,117.5,0.01,11750.0
+143,Fernando,Donovan,michaeleverett@example.com,British Columbia,West Jamesside,At Risk,5,2022-01-08,135.64,22.09,6.14
+144,Joshua,Weber,shawgary@example.net,Quebec,East Donna,Loyal,6,2022-03-20,259.8,0.01,25980.0
+145,Jennifer,Jacobs,bryananthony@example.org,Ontario,Debrashire,Loyal,3,2022-08-24,467.84,9.62,48.63
+146,Robert,Fowler,ismall@example.com,Ontario,Timothyfurt,Lost,2,2022-01-11,79.64,25.75,3.09
+147,Kenneth,Jones,moorerobert@example.com,Quebec,West Catherine,Lost,3,2022-03-09,47.36,3.8,12.46
+148,Larry,Higgins,theresa25@example.net,Ontario,West Johnville,At Risk,1,2022-05-31,189.93,0.45,422.07
+149,Joseph,Wright,williamssonia@example.net,Alberta,Wrightburgh,Champions,1,2022-02-14,511.96,1.76,290.89
+150,Lisa,Peck,james27@example.net,Ontario,Jimenezport,Champions,4,2022-02-14,1095.78,5.63,194.63
+151,Tyler,Davis,pwagner@example.org,Ontario,Brandonport,Loyal,5,2022-01-02,208.09,29.29,7.1
+152,Troy,Khan,amitchell@example.org,Ontario,Andersonview,Potential,1,2022-05-27,68.16,3.45,19.76
+153,Jessica,Gallagher,brandon09@example.net,Ontario,West Angela,Lost,1,2022-02-11,30.92,7.97,3.88
+154,Charles,Gordon,marcia99@example.org,British Columbia,North Phillip,Potential,1,2022-02-10,113.0,0.01,11300.0
+155,Laura,Morgan,kari39@example.net,British Columbia,Porterton,Champions,3,2023-02-13,604.76,7.52,80.42
+156,Benjamin,Reeves,jstone@example.net,Quebec,West Sarah,Champions,5,2022-09-24,655.19,20.14,32.53
+157,Lucas,Long,brittney88@example.net,British Columbia,Ericksonport,At Risk,8,2022-01-07,87.78,10.95,8.02
+158,Thomas,Smith,emily69@example.com,Ontario,New Thomasshire,Loyal,2,2022-03-06,429.7,17.33,24.8
+159,Becky,Griffith,ojackson@example.net,British Columbia,Hernandezbury,Potential,3,2022-12-05,102.63,5.72,17.94
+160,Anthony,Vaughan,leescott@example.com,Saskatchewan,South Hannah,Loyal,1,2022-06-01,484.89,3.04,159.5
+161,Robert,Hampton,vsalas@example.net,Ontario,Lake Devinborough,Potential,1,2023-02-12,120.78,3.54,34.12
+162,Ann,Bolton,ufox@example.org,Ontario,Barrmouth,Potential,4,2022-11-26,45.94,0.51,90.08
+163,Amy,Lowe,chelsea33@example.com,Manitoba,Jeffreyport,Champions,3,2023-12-14,482.72,8.87,54.42
+164,Kellie,Bush,wstewart@example.net,Alberta,Keithshire,At Risk,2,2022-01-06,105.53,18.26,5.78
+165,Erica,James,xcardenas@example.org,British Columbia,Bobbyland,Loyal,5,2022-10-18,252.4,19.01,13.28
+166,Michael,Ramos,julie33@example.net,Quebec,Sarahview,Loyal,5,2022-04-05,263.46,19.09,13.8
+167,Derrick,Gilbert,johnsantiago@example.net,Nova Scotia,Lake Jesse,Potential,2,2022-04-16,57.34,20.45,2.8
+168,Craig,Rivera,xgarcia@example.org,British Columbia,New Tiffanyburgh,At Risk,3,2022-05-14,98.22,2.84,34.58
+169,Richard,Donovan,mwoods@example.com,British Columbia,Justinton,Loyal,2,2022-01-16,432.29,20.79,20.79
+170,Rebecca,Davis,amandasharp@example.org,Ontario,South Nicole,At Risk,1,2022-08-25,141.62,0.01,14162.0
+171,Gregory,Gillespie,lfrench@example.net,Ontario,Nancytown,Loyal,2,2022-12-29,412.33,22.43,18.38
+172,Kenneth,Morrison,justin88@example.com,Quebec,Port William,Potential,4,2022-01-04,109.36,7.34,14.9
+173,Joshua,Lamb,francisco74@example.net,Quebec,North Jill,Champions,7,2022-01-07,639.93,11.79,54.28
+174,Krystal,Bradley,gregorychase@example.com,Quebec,Robertsonland,Lost,2,2022-11-26,55.89,23.7,2.36
+175,Richard,Davis,thomasboyle@example.org,Quebec,Patrickmouth,Loyal,1,2022-03-07,487.44,0.01,48744.0
+176,Karen,Finley,brandi90@example.com,Saskatchewan,Heatherton,Lost,1,2023-01-21,79.5,4.38,18.15
+177,Elizabeth,Marshall,richardshaw@example.net,British Columbia,Hannahport,Loyal,6,2022-10-30,425.4,0.82,518.78
+178,Michael,Walker,timothygibson@example.net,British Columbia,Robertside,Loyal,5,2022-05-21,220.0,19.65,11.2
+179,Roberta,Todd,kathleenbecker@example.net,New Brunswick,New Seanstad,Lost,3,2022-10-19,69.45,10.07,6.9
+180,Christian,Elliott,poolerebecca@example.org,British Columbia,East Mark,Potential,1,2022-05-28,51.36,6.93,7.41
+181,Abigail,Wilson,jenniferburns@example.net,Ontario,Stokesmouth,Potential,3,2022-09-06,81.78,7.71,10.61
+182,David,Perry,hansenemily@example.com,Manitoba,South Jonathantown,Potential,1,2022-08-30,90.03,0.01,9003.0
+183,Julie,Lane,hendersonisabella@example.net,Quebec,North Valeriefort,Potential,2,2022-01-04,135.69,17.09,7.94
+184,Anthony,Ortiz,katiegood@example.net,Quebec,Brooksfurt,Potential,1,2022-06-11,85.04,1.88,45.23
+185,Shane,Stark,rbennett@example.net,Quebec,Lake Michelle,Loyal,3,2022-01-30,493.47,1.32,373.84
+186,David,Haney,urice@example.org,Quebec,Port Andrewport,Potential,4,2022-03-27,148.86,5.86,25.4
+187,Steven,Ball,opatel@example.org,Nova Scotia,Reedview,At Risk,2,2022-08-24,201.81,25.6,7.88
+188,Jacob,Golden,johnsondonna@example.net,New Brunswick,East Jamieville,Lost,7,2023-06-04,46.22,9.02,5.12
+189,Brittney,Griffin,sanchezbradley@example.com,Nova Scotia,New Jeff,At Risk,2,2022-10-01,205.51,25.34,8.11
+190,Michelle,Brown,jim95@example.net,Ontario,Joelberg,Potential,1,2023-06-08,55.92,2.42,23.11
+191,Valerie,Boyd,dturner@example.net,British Columbia,Lake Erika,At Risk,3,2022-01-09,206.37,8.61,23.97
+192,Angela,Williams,shelly68@example.com,Alberta,Russellport,Potential,2,2022-10-25,128.81,22.92,5.62
+193,Nicholas,Webster,oallen@example.com,Ontario,Port Steven,At Risk,5,2023-02-09,148.36,27.62,5.37
+194,Brian,Gutierrez,igrant@example.com,Quebec,West James,At Risk,3,2022-02-11,144.71,6.52,22.19
+195,Deborah,Nielsen,christopher30@example.com,Quebec,Nunezton,Lost,5,2022-09-01,24.36,20.36,1.2
+196,Morgan,Lopez,timothybooth@example.com,Ontario,Susantown,Lost,6,2022-11-27,60.39,3.36,17.97
+197,Jason,Lee,burgesskaren@example.org,British Columbia,South Rose,Loyal,1,2022-01-01,466.49,5.47,85.28
+198,Andrea,Rowe,powens@example.com,Ontario,Josehaven,Champions,5,2022-03-23,533.85,23.93,22.31
+199,Nicole,Owens,ugill@example.org,Ontario,Lawrenceton,Potential,7,2022-01-02,48.04,11.39,4.22
+200,Anna,Walker,allentran@example.net,British Columbia,Phillipsborough,At Risk,1,2022-07-03,159.07,2.39,66.56
+201,Mark,James,victorpena@example.net,British Columbia,Jonathanfort,Loyal,2,2022-02-12,334.5,16.24,20.6
+202,Tammy,May,umurray@example.com,Ontario,East Jennifer,At Risk,5,2022-02-16,218.65,29.92,7.31
+203,Tracy,Stark,warrenmary@example.org,British Columbia,Port Adamberg,Loyal,5,2022-07-26,235.39,22.32,10.55
+204,Megan,Hall,albertwagner@example.com,Ontario,New Danafort,Lost,1,2024-02-11,52.67,3.79,13.9
+205,Donna,Smith,hsmith@example.net,Ontario,Amandaport,At Risk,1,2022-05-07,204.56,0.01,20456.0
+206,Andre,Li,ldrake@example.org,Ontario,New Eduardoborough,Lost,6,2022-08-05,65.7,6.61,9.94
+207,Christine,King,joseph61@example.com,Ontario,Stevensbury,Champions,2,2023-12-03,1068.41,20.89,51.14
+208,Veronica,Perez,valdezmichele@example.org,Ontario,South Nicholasside,Champions,8,2022-05-30,831.88,15.17,54.84
+209,Thomas,Walsh,christopherbruce@example.net,British Columbia,Arielville,At Risk,6,2023-02-23,87.34,0.01,8734.0
+210,Patricia,Ellison,jasonparrish@example.net,Ontario,Nelsonland,Potential,3,2022-02-09,47.08,5.34,8.82
+211,Gabrielle,Ramirez,whitemelissa@example.org,Ontario,New Douglas,Loyal,2,2022-03-28,298.13,22.59,13.2
+212,Lori,Nicholson,evansanne@example.net,New Brunswick,Rhodesside,At Risk,5,2022-02-14,159.76,22.34,7.15
+213,Martin,Campos,krystalnorris@example.org,Quebec,Brianchester,At Risk,1,2022-04-05,126.42,2.58,49.0
+214,Jesse,Jones,unovak@example.org,British Columbia,Kristenmouth,Potential,7,2022-01-28,93.76,7.06,13.28
+215,Tracy,Kelly,rreynolds@example.net,Alberta,Millerport,Loyal,4,2022-05-30,451.87,2.11,214.16
+216,Lauren,Marquez,adamsnorman@example.net,Ontario,Lake Peter,Lost,8,2022-09-03,29.05,16.18,1.8
+217,Michael,Davis,sean41@example.org,British Columbia,East Ryanside,At Risk,3,2022-04-04,166.23,5.41,30.73
+218,Angela,Russell,davisangela@example.net,Ontario,Michelletown,Loyal,7,2022-09-17,400.49,9.61,41.67
+219,Kelly,Hughes,hardyanita@example.org,Manitoba,Lake Oscar,Loyal,1,2022-12-14,356.73,7.0,50.96
+220,Dominic,Turner,kthomas@example.com,Ontario,Robertfort,At Risk,5,2022-04-20,95.37,19.54,4.88
+221,Kirsten,Ward,jennifersimpson@example.net,New Brunswick,South Daniel,Potential,2,2022-01-27,63.86,17.29,3.69
+222,Kevin,Rush,meagan65@example.com,Nova Scotia,Ryanberg,Loyal,2,2022-05-31,463.11,19.12,24.22
+223,Kevin,Morrison,timothythompson@example.com,British Columbia,Kellyfort,Potential,2,2022-06-06,77.76,17.28,4.5
+224,Tammy,Casey,nicholas65@example.org,British Columbia,New Wendy,Potential,1,2022-01-11,69.94,6.52,10.73
+225,Hector,Saunders,bentonsteven@example.net,Ontario,South Lauren,Loyal,4,2022-01-09,380.93,1.92,198.4
+226,Marie,Jones,ichambers@example.net,British Columbia,Johnberg,Potential,1,2022-07-01,43.71,0.11,397.36
+227,Jennifer,Mccormick,colecarla@example.net,Ontario,Fergusonchester,Lost,6,2022-03-20,30.08,7.62,3.95
+228,Amy,Gibbs,jacqueline89@example.net,Alberta,North Kaylastad,Potential,1,2022-07-05,114.5,5.04,22.72
+229,Gabriel,Salazar,vrasmussen@example.com,Quebec,North Coreybury,Potential,2,2022-10-10,113.34,15.59,7.27
+230,William,Stone,seanmyers@example.net,Ontario,West Whitney,At Risk,7,2022-04-12,136.28,6.7,20.34
+231,Timothy,Phillips,wilsonshelia@example.org,Quebec,Larrymouth,Lost,1,2024-05-07,40.78,7.05,5.78
+232,Kristen,Boyd,thomas77@example.com,Ontario,West Bradleyville,Loyal,3,2022-06-17,436.49,7.18,60.79
+233,Andrew,Cooper,byrdfrank@example.net,Nova Scotia,New Greg,Champions,4,2022-08-30,441.0,1.4,315.0
+234,Ethan,Castro,zhall@example.net,Quebec,East Danielle,Champions,4,2022-04-03,1009.36,2.28,442.7
+235,Ryan,Johnson,shannonjordan@example.org,British Columbia,East Joshua,Potential,1,2022-05-20,87.99,0.01,8799.0
+236,Jane,Flynn,lloydamanda@example.com,British Columbia,Jamesville,Potential,6,2022-09-17,99.39,7.09,14.02
+237,Jose,Huffman,candice96@example.net,Quebec,West Michaelmouth,Lost,1,2023-12-12,56.53,6.85,8.25
+238,Christina,Cervantes,samantha91@example.net,Ontario,West David,At Risk,7,2022-07-08,114.13,9.44,12.09
+239,Kevin,White,williambarnes@example.org,Ontario,Hendersonfort,Lost,4,2022-04-22,63.52,2.49,25.51
+240,Cynthia,Steele,angelaburns@example.org,Ontario,West Megan,At Risk,6,2022-03-04,160.7,5.92,27.15
+241,Christine,Glenn,washingtonjames@example.com,Ontario,Ortizfort,Loyal,4,2022-02-25,376.34,0.01,37634.0
+242,Robert,Larsen,kjackson@example.org,Quebec,West Antonio,Loyal,1,2022-03-19,266.34,2.3,115.8
+243,Jeffrey,Roberts,xcunningham@example.com,Ontario,New Dannyside,Champions,3,2022-05-29,932.76,1.42,656.87
+244,Madeline,Richardson,wolfscott@example.org,Quebec,Garciabury,Loyal,6,2022-05-03,335.14,0.01,33514.0
+245,Kenneth,Kidd,fbaker@example.com,Ontario,Port Lisaborough,Loyal,5,2022-03-24,480.34,29.35,16.37
+246,Lisa,Matthews,michelle96@example.org,British Columbia,Port Jamie,Loyal,1,2022-09-14,353.94,7.37,48.02
+247,Jamie,Brown,amanda98@example.org,Manitoba,Tiffanyport,At Risk,1,2022-02-17,125.48,0.01,12548.0
+248,Keith,Adams,taylorkaren@example.com,Ontario,West Michelleberg,Potential,1,2023-06-03,79.08,4.3,18.39
+249,Jacqueline,Anderson,jenniferpoole@example.net,Ontario,Burnsshire,Lost,1,2022-05-06,56.55,4.55,12.43
+250,Cynthia,Burton,ohayes@example.org,British Columbia,Robertsonview,Loyal,1,2022-11-19,235.38,0.33,713.27
+251,Heather,Wiley,uclements@example.net,Ontario,Port Kimland,Potential,3,2023-10-09,109.98,3.43,32.06
+252,Jessica,Ellis,melissa86@example.org,Ontario,Summersfort,Potential,4,2022-03-17,66.28,0.01,6628.0
+253,Joseph,Clayton,amy29@example.com,Quebec,Patriciaton,At Risk,3,2022-04-28,204.72,10.24,19.99
+254,Brandon,Sims,ksmith@example.com,Quebec,Smithchester,Potential,4,2022-02-08,72.79,6.9,10.55
+255,James,Barker,nicoleturner@example.com,Ontario,Lake Michaelland,Lost,4,2022-08-10,50.81,0.01,5081.0
+256,Nathan,Mckee,brettgarrett@example.net,British Columbia,South Diana,Champions,7,2022-02-16,976.93,3.15,310.14
+257,Jane,Smith,lmiller@example.org,Quebec,Smithmouth,Potential,2,2024-03-11,81.89,21.3,3.84
+258,Lisa,Mcneil,ebenson@example.org,New Brunswick,South Christopher,Loyal,1,2022-08-12,384.14,0.01,38414.0
+259,Linda,Garcia,nicole26@example.org,British Columbia,North Alyssa,Loyal,3,2022-01-17,275.1,6.21,44.3
+260,Alan,Santos,nbell@example.net,British Columbia,South Christina,Potential,3,2022-04-24,144.4,1.7,84.94
+261,Scott,Robinson,taylordavid@example.net,New Brunswick,Bellchester,Loyal,6,2022-01-14,245.47,0.01,24547.0
+262,Leonard,Taylor,deanna38@example.net,Ontario,Kimberlytown,Potential,2,2022-05-27,74.41,17.93,4.15
+263,Melanie,Barrett,jamie98@example.org,Saskatchewan,Phillipston,Lost,1,2022-12-17,76.53,5.76,13.29
+264,Kristen,Leon,troyrodriguez@example.com,Alberta,New Pamelatown,Loyal,5,2022-02-21,427.11,25.12,17.0
+265,Valerie,Peck,paulcombs@example.com,Ontario,Amyburgh,Lost,6,2022-05-29,60.83,1.96,31.04
+266,Kathryn,Best,smithcarlos@example.com,Quebec,North Sandra,Lost,6,2024-03-18,41.07,6.29,6.53
+267,Stacy,Sanders,courtney86@example.com,Ontario,Millerside,Champions,4,2023-10-26,1045.56,5.63,185.71
+268,Amanda,Hernandez,collinswilliam@example.org,Quebec,New Mark,Champions,1,2022-11-16,1139.82,1.42,802.69
+269,Brenda,Hines,collinssamuel@example.org,Ontario,East Christopherchester,Potential,6,2022-05-09,54.85,2.69,20.39
+270,Darren,Salazar,parkerjudith@example.net,Ontario,North Alexander,Champions,2,2022-02-19,411.27,21.96,18.73
+271,Derrick,Smith,hbenton@example.net,Ontario,Garyberg,At Risk,6,2022-01-21,80.52,0.01,8052.0
+272,Kara,Marks,wiseanthony@example.com,British Columbia,Alexandriaview,Loyal,5,2022-09-22,494.82,25.32,19.54
+273,Jennifer,Ray,crawfordwilliam@example.org,Quebec,Villarrealburgh,Potential,2,2022-02-18,133.92,21.63,6.19
+274,Michael,Scott,shannonemily@example.org,British Columbia,Lake William,Lost,2,2022-03-23,64.42,22.17,2.91
+275,Bradley,Roy,brandoncox@example.org,Quebec,Port Austin,Potential,1,2022-09-09,131.48,0.01,13148.0
+276,Linda,Klein,pwalker@example.com,Ontario,Josephland,Lost,1,2022-08-23,55.59,5.63,9.87
+277,Ashley,Wilson,whitelinda@example.org,Ontario,Jonesmouth,Loyal,1,2022-09-30,247.85,0.22,1126.59
+278,Michelle,Ayala,mark87@example.org,Ontario,Jamesshire,Loyal,5,2022-06-04,461.07,21.53,21.42
+279,Kristen,Stevenson,stevenvargas@example.com,Ontario,Lake Rachel,Champions,1,2022-08-18,985.59,0.01,98559.0
+280,Kathleen,Sanchez,randolphandrew@example.net,Ontario,Cynthiatown,Loyal,1,2023-09-15,221.29,0.01,22129.0
+281,Stephanie,Smith,usweeney@example.com,Ontario,East Alyssabury,Champions,3,2022-11-30,913.87,1.49,613.34
+282,Robert,Woodward,jenniferdavis@example.org,Quebec,Haynesstad,Champions,1,2023-12-18,415.88,4.64,89.63
+283,Stephen,Adkins,wagnerdana@example.com,Quebec,New Ashleychester,Loyal,1,2022-07-05,343.66,1.76,195.26
+284,Elaine,Anderson,jose56@example.net,Ontario,Louisview,At Risk,5,2023-12-19,190.33,21.92,8.68
+285,Jesus,Harding,kimberlyrichards@example.org,Ontario,East Shannonmouth,At Risk,1,2022-06-07,199.19,0.01,19919.0
+286,Richard,Herrera,shannonford@example.org,Ontario,East Lindseyport,Loyal,2,2022-09-08,482.02,20.05,24.04
+287,Margaret,Terry,lewismelissa@example.org,British Columbia,Lake Johnstad,Champions,8,2022-10-14,792.12,17.41,45.5
+288,Randy,Williams,jorge20@example.com,British Columbia,Hawkinsside,Lost,2,2022-05-11,47.47,18.19,2.61
+289,John,Murray,davidbrown@example.org,Quebec,East Madison,At Risk,8,2022-08-28,116.23,15.03,7.73
+290,Nathan,Mccoy,aguilarjonathan@example.org,Quebec,North Jamesmouth,Loyal,2,2022-08-31,459.36,18.04,25.46
+291,Lisa,Davis,david70@example.org,Alberta,Underwoodfurt,At Risk,4,2022-07-14,123.41,5.75,21.46
+292,Tyler,Reyes,nthompson@example.org,Alberta,Joshuaberg,Loyal,1,2022-01-03,255.07,2.81,90.77
+293,Austin,Harvey,deborahporter@example.net,Quebec,Brownview,At Risk,1,2022-06-20,165.72,0.01,16572.0
+294,Patrick,Barnes,crystalpham@example.org,British Columbia,Caseystad,Potential,3,2023-03-28,96.59,7.65,12.63
+295,Timothy,Harrington,roberta85@example.com,Alberta,Hectormouth,Lost,3,2022-10-18,36.92,9.91,3.73
+296,Carla,Johnson,brian78@example.com,Quebec,East Craig,Potential,5,2022-06-26,137.11,23.04,5.95
+297,Diane,Adams,gallagherstacie@example.net,Quebec,Kellyburgh,Potential,1,2022-04-06,99.96,0.69,144.87
+298,Gregory,Watkins,robin05@example.net,Alberta,New Stacy,Champions,1,2022-12-11,629.47,0.01,62947.0
+299,Mary,Cochran,lweaver@example.com,Quebec,North Brianbury,Loyal,6,2022-03-07,295.09,0.01,29509.0
+300,Andrew,Woods,samantha32@example.com,Ontario,Port Megan,Lost,6,2022-02-27,35.7,7.1,5.03
+301,Marcus,Johnson,kimmathis@example.com,Ontario,West Janetfurt,Potential,6,2022-01-21,142.45,2.69,52.96
+302,Brenda,Rogers,derek26@example.net,British Columbia,Banksburgh,Champions,5,2023-05-04,981.02,25.03,39.19
+303,Jasmine,Hoffman,jeffrey92@example.com,Quebec,Jessicaport,Lost,2,2022-07-06,67.38,22.84,2.95
+304,David,Daniel,xrosales@example.net,Ontario,East Carriebury,Loyal,1,2023-05-01,436.23,1.53,285.12
+305,Danielle,Garcia,vtaylor@example.org,Ontario,West Toni,At Risk,2,2022-09-12,89.72,19.27,4.66
+306,Gary,Mcclure,underwoodelizabeth@example.net,British Columbia,Seanview,Loyal,8,2022-01-23,455.38,10.57,43.08
+307,Jason,Steele,jonathan10@example.org,Quebec,Kimchester,Potential,1,2022-10-17,87.17,1.0,87.17
+308,Tanya,Wilkerson,wmacias@example.net,British Columbia,Garciafort,Champions,4,2022-06-08,502.65,5.92,84.91
+309,Kristina,Lane,franciscojones@example.org,British Columbia,Andrewview,Loyal,6,2022-06-21,492.3,0.01,49230.0
+310,Stephanie,Jones,pamelamartin@example.org,British Columbia,West Brookefort,Loyal,2,2022-07-15,477.01,23.0,20.74
+311,Janet,Reynolds,catherinehamilton@example.org,Manitoba,West Jamieborough,At Risk,3,2022-03-14,117.16,10.84,10.81
+312,Robert,Spencer,donna43@example.org,Ontario,South Ashleyfort,Loyal,1,2022-03-28,252.49,0.01,25249.0
+313,Eric,Ward,qmiller@example.net,Ontario,Gonzaleztown,Potential,2,2022-01-09,120.72,15.53,7.77
+314,Jamie,Little,wellsdarrell@example.com,Quebec,Burnsview,Potential,1,2023-07-24,121.44,4.52,26.87
+315,Christopher,Stephens,nathanjames@example.org,Ontario,Williamsmouth,Loyal,3,2022-01-18,473.38,1.8,262.99
+316,Steven,Perez,anne21@example.org,Saskatchewan,Lindseychester,Potential,5,2022-10-13,51.84,23.72,2.19
+317,Tara,Lawrence,randallloretta@example.com,Ontario,Armstrongbury,Loyal,5,2022-08-31,428.48,20.59,20.81
+318,Thomas,Miller,shawrachel@example.net,Alberta,North Stacy,Loyal,2,2022-06-09,378.83,22.4,16.91
+319,Shane,Rush,teresastokes@example.org,Ontario,South Christianchester,At Risk,5,2022-05-07,154.97,28.28,5.48
+320,James,Carson,maryscott@example.net,Quebec,North Paulfurt,Champions,3,2022-05-25,883.28,5.46,161.77
+321,Andrea,Gates,astark@example.net,Ontario,Rodriguezberg,Lost,1,2022-02-15,24.09,0.05,481.8
+322,Eddie,Matthews,buckleyanna@example.org,Nova Scotia,Mikaylastad,Potential,3,2022-06-21,149.04,1.85,80.56
+323,Natalie,Baker,earmstrong@example.org,Ontario,West Richard,Potential,5,2022-01-16,59.93,27.04,2.22
+324,Christine,Becker,vwilliams@example.net,Ontario,North Julie,At Risk,5,2022-04-01,123.8,20.59,6.01
+325,Samantha,Prince,morganlaura@example.com,Quebec,Meganville,Champions,2,2022-02-23,1080.03,17.83,60.57
+326,Teresa,Perez,terri75@example.com,Quebec,Jacobsland,Lost,3,2022-01-19,45.8,6.2,7.39
+327,Jacob,Lewis,wfigueroa@example.net,Quebec,Lorihaven,Potential,4,2022-07-12,101.23,0.01,10123.0
+328,Lacey,Jones,htaylor@example.net,Alberta,East Jamesborough,At Risk,4,2023-08-07,128.94,3.49,36.95
+329,Mary,Wright,xwilliams@example.net,Ontario,West Micheal,At Risk,5,2022-12-14,91.28,24.74,3.69
+330,Steven,Sanders,maldonadojohn@example.com,British Columbia,Thompsonfort,Lost,2,2023-08-05,51.12,16.75,3.05
+331,Brenda,Bailey,marygreen@example.net,Ontario,West Anthonyton,Potential,2,2022-01-19,63.94,22.42,2.85
+332,Frank,Armstrong,mercedesholland@example.net,Ontario,West Denise,Potential,2,2022-09-02,117.94,23.94,4.93
+333,William,Hancock,wellsdavid@example.org,Ontario,East Johnnyport,At Risk,6,2022-06-18,184.54,0.01,18454.0
+334,Jennifer,Fletcher,rodney65@example.com,Ontario,Jefferyport,At Risk,4,2022-01-22,166.17,1.39,119.55
+335,Erica,Holloway,asilva@example.net,British Columbia,Annaport,Champions,1,2022-01-15,959.14,3.93,244.06
+336,Kenneth,Rodriguez,rogersjoshua@example.com,British Columbia,Joseport,Loyal,1,2022-12-14,444.69,0.01,44469.0
+337,Jacob,Holmes,racheltrujillo@example.net,New Brunswick,Guerreroberg,Loyal,8,2022-05-09,283.01,15.79,17.92
+338,Jennifer,Rios,jordan66@example.com,Alberta,New Jeanshire,Loyal,1,2024-03-30,258.7,5.59,46.28
+339,Lisa,Cooper,ginalittle@example.com,Quebec,Williamburgh,Loyal,5,2022-12-24,412.17,21.64,19.05
+340,Mary,Walter,kellyruiz@example.net,Ontario,Jessicaside,Potential,4,2022-02-14,69.65,0.01,6965.0
+341,Kathryn,White,destiny35@example.org,Ontario,Robertmouth,Loyal,6,2022-11-24,261.67,5.54,47.23
+342,Nathan,Richards,eyork@example.org,British Columbia,South Pamelahaven,Potential,1,2022-01-09,64.1,0.01,6410.0
+343,David,Becker,robert22@example.org,Ontario,Robertshire,Lost,1,2023-07-14,75.54,1.2,62.95
+344,Patricia,Hatfield,lesliebaldwin@example.org,Manitoba,Cookburgh,Potential,3,2022-06-16,147.57,5.04,29.28
+345,Lawrence,Brown,whill@example.org,Ontario,South Kristen,Champions,5,2022-05-08,687.86,22.34,30.79
+346,Kimberly,Anderson,zschultz@example.com,Alberta,Reyeston,Lost,4,2022-08-10,28.22,7.89,3.58
+347,Amanda,Cross,mcclainkatherine@example.net,Quebec,North Erica,Loyal,1,2023-03-14,259.01,6.15,42.12
+348,Courtney,Wright,larry16@example.net,Nova Scotia,Garyton,Lost,2,2023-03-13,45.16,20.41,2.21
+349,Kenneth,Carter,ryan25@example.com,British Columbia,Karenburgh,Potential,2,2022-02-03,131.55,19.86,6.62
+350,Stacy,Hull,osmith@example.net,Quebec,East Jessica,Champions,4,2022-12-20,794.15,6.2,128.09
+351,Brittany,Jackson,jennifer06@example.net,Alberta,Kelseyton,Champions,1,2022-02-09,538.57,0.01,53857.0
+352,Brittney,Williams,valdezandrew@example.net,Quebec,South Seanville,Champions,4,2022-10-06,869.79,4.86,178.97
+353,Amy,Wells,jamiejennings@example.org,Alberta,Robertville,Potential,5,2022-07-01,145.43,20.16,7.21
+354,Elaine,Nelson,robertroach@example.net,Ontario,West Danielville,Champions,2,2023-02-16,1087.78,19.83,54.86
+355,Tyler,Lynch,marie35@example.net,Ontario,Phillipston,Potential,5,2023-12-05,133.53,24.3,5.5
+356,Amy,Lozano,arivera@example.org,Quebec,North Maryfort,Potential,3,2022-12-10,139.76,2.92,47.86
+357,Edward,Davis,cummingscraig@example.com,British Columbia,South Vanessa,Potential,3,2022-01-31,61.59,2.2,28.0
+358,Kenneth,Marshall,limorgan@example.com,Ontario,Lauriemouth,Loyal,5,2022-02-14,440.95,25.8,17.09
+359,Ronald,Wilson,smithdevon@example.net,Quebec,West Michael,At Risk,3,2022-04-07,138.31,3.21,43.09
+360,Samuel,Howell,watsonmatthew@example.org,Nova Scotia,Rossmouth,Lost,4,2023-06-19,25.43,1.48,17.18
+361,Joseph,Cruz,pmarsh@example.org,Quebec,East Heatherton,At Risk,2,2022-07-30,218.28,19.74,11.06
+362,Tina,Richard,perrybrittany@example.net,British Columbia,Whitefurt,Potential,2,2022-07-26,75.64,21.82,3.47
+363,Kimberly,Carr,timothyfreeman@example.com,British Columbia,Williamsview,Champions,7,2022-04-12,528.01,6.85,77.08
+364,Diana,Smith,tiffanysantiago@example.com,Alberta,South Dorothybury,Loyal,4,2022-04-28,410.96,6.02,68.27
+365,Timothy,Alvarado,jhernandez@example.net,Quebec,North Dawnburgh,Potential,5,2022-01-10,98.14,29.55,3.32
+366,William,Harrison,ebooth@example.com,Ontario,Johnview,At Risk,5,2023-02-27,194.15,21.22,9.15
+367,Brent,Walker,ppowell@example.org,Ontario,Wallaceshire,Potential,5,2023-03-18,61.02,20.29,3.01
+368,Shane,Gates,fstewart@example.net,Ontario,North Richardton,Loyal,4,2023-01-09,399.77,2.38,167.97
+369,Angela,Smith,connersylvia@example.net,British Columbia,Pamelaside,Champions,2,2022-01-15,647.66,25.22,25.68
+370,Jamie,Powers,michael03@example.com,Saskatchewan,Annfort,At Risk,6,2022-03-25,159.96,4.21,38.0
+371,Jennifer,Cox,wwilson@example.net,Ontario,North Matthew,Potential,3,2022-01-20,106.78,2.18,48.98
+372,Maria,Brandt,amy51@example.org,British Columbia,South Donald,Loyal,1,2022-01-25,331.9,3.7,89.7
+373,Jennifer,Griffith,kingjames@example.org,Nova Scotia,Lewisborough,At Risk,2,2022-11-28,80.21,22.28,3.6
+374,Jennifer,Rodriguez,owilliams@example.net,Ontario,Port Patriciamouth,Loyal,2,2022-11-26,270.43,15.57,17.37
+375,Dominique,Blanchard,tamarasmith@example.net,Ontario,New Savannahshire,Loyal,5,2022-03-24,333.98,23.68,14.1
+376,Timothy,Romero,heatherthompson@example.org,Ontario,South Dianemouth,Potential,8,2022-02-11,82.15,17.15,4.79
+377,William,Cruz,joshuastuart@example.com,Ontario,Ballardberg,Loyal,2,2022-06-04,358.54,17.86,20.08
+378,Robert,Graves,megan85@example.net,Ontario,East Jason,Lost,5,2022-07-23,50.21,26.27,1.91
+379,Jennifer,Parks,tinasantos@example.org,Ontario,Jenniferstad,Champions,2,2022-12-15,1169.04,18.18,64.3
+380,Anna,Aguilar,icraig@example.com,Saskatchewan,Stokeshaven,Potential,6,2022-12-29,74.76,4.14,18.06
+381,Daniel,James,santiagojames@example.org,Alberta,Francesberg,Potential,2,2022-02-12,55.91,18.01,3.1
+382,Mary,Vaughn,james80@example.com,Quebec,Garciaside,Loyal,1,2022-02-16,451.51,5.41,83.46
+383,Michelle,Newton,yyoung@example.net,British Columbia,Heatherton,At Risk,3,2022-01-25,86.27,10.56,8.17
+384,Sara,Hughes,tammy00@example.net,British Columbia,Jamesmouth,Loyal,7,2023-01-12,183.3,5.37,34.13
+385,Maria,Pruitt,kari89@example.org,Saskatchewan,West Shane,Champions,4,2022-07-02,1051.85,0.87,1209.02
+386,Tonya,Jones,jillwilson@example.org,Quebec,Ramirezview,At Risk,2,2022-08-23,173.96,21.16,8.22
+387,David,Silva,adam72@example.org,Ontario,West Candice,At Risk,4,2023-12-26,163.46,2.29,71.38
+388,Kim,Garrett,tracy98@example.com,New Brunswick,Port Jasminehaven,Potential,1,2023-08-23,56.09,0.01,5609.0
+389,Jeffrey,White,hartmanerik@example.net,Ontario,Davisbury,Potential,4,2022-08-05,52.82,3.63,14.55
+390,Nicole,Alvarado,michael39@example.net,Ontario,Barajastown,At Risk,4,2022-04-15,157.67,6.68,23.6
+391,Danny,Reed,rebeccaaustin@example.net,Manitoba,North Felicia,At Risk,8,2022-01-30,197.6,12.07,16.37
+392,Manuel,Moon,cruzamber@example.com,British Columbia,New Lynnstad,Potential,6,2022-02-14,64.17,1.23,52.17
+393,Willie,Hicks,pwilliams@example.org,Manitoba,Willieville,Lost,4,2022-03-21,57.73,1.64,35.2
+394,Gary,Huber,simsjason@example.net,British Columbia,Port Gina,Champions,1,2022-06-04,1116.83,2.72,410.6
+395,Mary,Harris,elucas@example.net,Alberta,North Stephen,Loyal,1,2022-05-23,451.16,3.08,146.48
+396,Martin,Miller,thompsonjohnathan@example.org,Ontario,West Rickey,Potential,2,2023-01-06,90.42,19.08,4.74
+397,Shannon,Sullivan,andre18@example.org,Ontario,Port Julieton,At Risk,4,2022-03-02,126.65,0.01,12665.0
+398,Jaclyn,Jones,robertsgina@example.net,Ontario,West Kathymouth,Potential,1,2022-05-04,99.8,7.05,14.16
+399,Patrick,Short,wellsamanda@example.org,Quebec,Roblesside,Potential,1,2022-05-29,107.84,0.96,112.33
+400,Kenneth,Walters,erica50@example.net,Alberta,North Bobby,Potential,3,2023-03-23,93.56,9.2,10.17
+401,Ashley,Long,torreskaitlin@example.net,Quebec,Jasonhaven,Lost,5,2022-08-12,48.29,21.09,2.29
+402,Douglas,White,james29@example.org,British Columbia,Newmanland,Champions,5,2022-06-18,802.11,25.63,31.3
+403,Kelly,Jones,gonzalezbeverly@example.com,Saskatchewan,Davidbury,Champions,2,2022-01-10,740.12,16.93,43.72
+404,Craig,Harvey,louishayes@example.net,Quebec,Heatherberg,Loyal,3,2022-05-12,300.3,6.03,49.8
+405,Ariana,Diaz,susan20@example.com,Alberta,Port Jeffrey,At Risk,5,2022-11-26,216.37,23.41,9.24
+406,Jodi,Graham,dennis57@example.com,British Columbia,Howardport,Lost,2,2022-04-28,23.94,23.21,1.03
+407,Tony,Rodriguez,wilkinsonmichele@example.org,Saskatchewan,West Jessica,Potential,1,2023-05-05,63.94,0.01,6394.0
+408,Courtney,Luna,atkinsoncrystal@example.net,Ontario,Hammondborough,Potential,1,2023-02-28,62.55,3.14,19.92
+409,Rebecca,Arnold,jvaldez@example.com,Ontario,Walkershire,Champions,1,2022-03-13,682.53,7.09,96.27
+410,Jessica,Carter,fmason@example.com,Ontario,Waynebury,Champions,3,2022-05-26,696.69,3.29,211.76
+411,Melanie,Drake,katherinetaylor@example.org,Ontario,New Stacy,Potential,6,2022-02-04,72.27,0.01,7227.0
+412,Donna,Faulkner,ccrosby@example.org,Ontario,Hallview,Loyal,7,2022-01-29,472.01,13.98,33.76
+413,Mike,Williams,aprilmoody@example.com,Quebec,Hardinton,At Risk,1,2022-01-27,214.24,5.79,37.0
+414,Bill,Wong,padillaadrienne@example.com,Ontario,Bethshire,Loyal,3,2023-05-19,492.18,3.26,150.98
+415,Glenn,Valdez,briana18@example.com,British Columbia,Kaufmanbury,Loyal,3,2022-03-22,217.62,8.9,24.45
+416,Zachary,Gomez,tommy79@example.org,British Columbia,South Gabriel,At Risk,5,2022-03-10,170.26,23.03,7.39
+417,Chris,Schneider,edwardmoore@example.net,British Columbia,Lake Jerrymouth,Loyal,5,2022-05-15,369.83,27.32,13.54
+418,Jennifer,Olson,lmendoza@example.org,Ontario,Johnsonton,At Risk,5,2022-10-25,125.93,29.26,4.3
+419,David,Vargas,crystalwilliams@example.net,British Columbia,North Gabriel,Champions,4,2022-06-05,968.46,0.01,96846.0
+420,Sandra,Black,kgreene@example.net,Saskatchewan,Lake Jessicaport,Lost,5,2022-08-24,63.61,25.16,2.53
+421,Stacey,Robinson,kdillon@example.org,British Columbia,Burkeshire,At Risk,3,2023-09-17,120.74,9.07,13.31
+422,Lori,White,gary57@example.net,New Brunswick,East Nicholasberg,Loyal,6,2022-09-27,295.86,4.83,61.25
+423,Daniel,Harris,mserrano@example.org,Ontario,South Rachel,Potential,1,2023-05-10,105.0,3.93,26.72
+424,Carol,Rich,davisdonna@example.net,Ontario,Port Erikachester,Loyal,2,2022-03-01,366.47,17.07,21.47
+425,Alexa,Wood,wolferoy@example.com,Ontario,Bellshire,Potential,5,2022-03-25,138.62,25.93,5.35
+426,Connor,Anderson,fcannon@example.com,Nova Scotia,Scotttown,Loyal,2,2022-03-02,352.35,21.58,16.33
+427,Jenna,Clarke,meyernicholas@example.org,Ontario,Robertville,Loyal,1,2022-07-03,405.1,0.01,40510.0
+428,Eric,Pearson,jose86@example.net,Ontario,Cherylfurt,At Risk,1,2023-03-30,194.49,0.87,223.55
+429,Kari,Gutierrez,jwhite@example.net,Ontario,Kingport,Lost,5,2022-02-06,37.22,28.41,1.31
+430,Becky,Schroeder,qfitzgerald@example.org,Quebec,South Krista,Potential,1,2022-07-13,123.11,5.75,21.41
+431,Stacy,Garcia,zhartman@example.net,Manitoba,East Paultown,Champions,4,2022-01-19,803.45,3.14,255.88
+432,Linda,Morrow,bfrost@example.org,Alberta,West Jeffreyland,Lost,7,2022-01-03,32.54,12.31,2.64
+433,Chelsea,Ramsey,hmendez@example.com,Ontario,Port Lorifort,Potential,4,2022-05-24,83.85,2.98,28.14
+434,Scott,Harris,james98@example.net,Ontario,New Gavin,Loyal,4,2022-01-15,230.38,6.15,37.46
+435,Barry,Allen,cantrellchristopher@example.com,Quebec,Gomezfurt,Potential,1,2022-04-16,123.49,7.57,16.31
+436,Richard,Gonzalez,mclaughlincasey@example.org,Alberta,Jessicaside,Potential,2,2023-05-27,126.85,24.5,5.18
+437,Robyn,Bailey,jeremy37@example.com,Alberta,West Gregoryhaven,Lost,2,2022-11-30,70.43,20.61,3.42
+438,Daniel,Jones,matthew18@example.com,Ontario,Heatherfurt,Loyal,1,2022-01-30,319.32,2.35,135.88
+439,Anna,Carrillo,susan77@example.net,Alberta,South Darrenland,At Risk,3,2022-01-03,108.48,3.33,32.58
+440,Patrick,Kramer,ericahall@example.com,Alberta,Moseshaven,Loyal,1,2022-05-02,466.19,0.01,46619.0
+441,Amanda,Haynes,john16@example.net,Nova Scotia,Charlesburgh,Lost,3,2022-07-28,63.06,9.92,6.36
+442,Thomas,Gomez,ian37@example.net,Quebec,East Jill,Champions,2,2022-01-12,795.59,21.88,36.36
+443,Monique,Clark,maryhuff@example.com,Ontario,Port Daniel,Champions,1,2022-05-17,1079.47,0.18,5997.06
+444,Samantha,Lowe,waustin@example.net,Ontario,Port Timothymouth,At Risk,8,2022-03-28,127.89,12.54,10.2
+445,Travis,Galloway,travis84@example.com,Quebec,Port Barbara,At Risk,2,2022-11-28,144.89,26.24,5.52
+446,Brian,Lloyd,cayers@example.net,Ontario,Phillipburgh,Lost,1,2022-01-26,68.61,7.52,9.12
+447,Stephen,Martinez,astewart@example.org,Alberta,South Bianca,At Risk,7,2022-02-01,128.46,3.46,37.13
+448,Mark,Salazar,jacob43@example.com,British Columbia,Mullenmouth,Potential,1,2022-02-10,114.9,5.56,20.67
+449,Michael,Jimenez,robertgoodwin@example.com,Nova Scotia,Ramirezburgh,Champions,2,2022-07-14,1177.89,24.71,47.67
+450,Ashley,Krause,lisale@example.org,Quebec,Chaseborough,Potential,2,2022-09-17,46.69,23.31,2.0
+451,Dustin,Haley,thomassmith@example.com,British Columbia,Taylorhaven,Lost,5,2022-05-23,31.88,19.76,1.61
+452,Amanda,Stewart,jevans@example.net,Ontario,South Coreyburgh,At Risk,7,2022-01-05,89.93,4.44,20.25
+453,Brian,Cervantes,gcombs@example.com,New Brunswick,Jordanstad,Lost,5,2022-07-13,68.8,22.18,3.1
+454,Ann,Frederick,maurice61@example.com,Quebec,New Barbara,Loyal,1,2022-01-26,438.72,4.34,101.09
+455,Debra,Thompson,michael87@example.net,Alberta,Prestonfurt,Loyal,6,2022-08-12,187.08,5.82,32.14
+456,Christina,Ford,mirandadavidson@example.com,Ontario,Welchshire,Lost,1,2022-11-30,38.99,0.01,3899.0
+457,Richard,Meadows,martinjeremy@example.com,Ontario,Jenniferfurt,At Risk,3,2022-07-11,209.44,9.03,23.19
+458,Joseph,Wallace,julie87@example.com,Ontario,East Melissa,At Risk,8,2022-01-12,145.25,16.71,8.69
+459,David,Young,shelby13@example.org,New Brunswick,Garcialand,Champions,1,2022-01-22,657.96,6.23,105.61
+460,Sharon,Kennedy,johnsonrandy@example.org,Saskatchewan,West Christineland,Champions,5,2022-01-17,666.44,19.85,33.57
+461,Diana,Mcclure,jerome47@example.net,Alberta,East Alison,Potential,4,2022-11-26,44.1,3.6,12.25
+462,George,Johnson,michelle57@example.com,Alberta,Amyberg,Loyal,5,2022-05-20,250.74,28.69,8.74
+463,Tara,Wolfe,brittanybryant@example.net,British Columbia,Millsside,Potential,3,2022-04-28,91.05,9.19,9.91
+464,Kyle,Reed,lindaramos@example.com,Quebec,Greenport,Potential,1,2023-02-26,79.47,3.78,21.02
+465,Alex,Mills,mauriceharrison@example.org,Ontario,Arroyofort,Lost,1,2022-04-15,70.79,5.74,12.33
+466,Kevin,Cannon,carla08@example.com,Ontario,South Nicole,Lost,1,2022-07-01,25.73,5.05,5.1
+467,Samuel,Wright,oclayton@example.com,Quebec,South Colleenhaven,Loyal,1,2023-12-02,472.97,0.01,47297.0
+468,Kathy,Kent,justin84@example.com,Quebec,Port Casey,Potential,5,2022-12-15,52.09,29.48,1.77
+469,Derrick,Rodriguez,rwilliamson@example.net,British Columbia,Lopeztown,Potential,2,2023-04-18,47.76,22.19,2.15
+470,Edwin,Booker,lopezcurtis@example.com,Ontario,Lake Samuel,At Risk,1,2022-01-04,116.62,6.08,19.18
+471,Alan,Davis,snydermatthew@example.com,Quebec,Boltonmouth,Potential,3,2022-06-29,64.72,4.7,13.77
+472,Heidi,Johnson,bridgesstephanie@example.org,Manitoba,Kimberlyland,Champions,8,2022-01-01,900.35,16.0,56.27
+473,Amy,White,lisa01@example.net,Ontario,South Kelsey,Loyal,4,2022-11-14,460.9,6.43,71.68
+474,Scott,Rojas,gonzalezjill@example.org,British Columbia,South Paul,Champions,2,2023-02-09,652.01,18.59,35.07
+475,Susan,Mayer,crystalwilliams@example.net,Quebec,West Timothyport,At Risk,1,2022-05-07,174.01,5.79,30.05
+476,James,Clay,teresayoung@example.com,Quebec,Alexisview,Potential,2,2022-04-07,143.14,24.51,5.84
+477,Brenda,Foster,albertwilliams@example.net,Ontario,Barkerberg,Champions,1,2022-01-01,1088.58,3.55,306.64
+478,Nathan,Davis,vincentparks@example.com,New Brunswick,North Michaelberg,Loyal,5,2022-06-29,432.26,19.24,22.47
+479,Jacqueline,Moody,tonystewart@example.net,Quebec,Lindamouth,Champions,3,2022-02-10,1038.42,1.35,769.2
+480,Jessica,Smith,ihoward@example.com,Alberta,South Jasmineside,Loyal,3,2022-04-13,287.77,2.98,96.57
+481,Kenneth,Terry,ashleystephens@example.com,Ontario,Hillside,Champions,3,2022-04-16,653.44,10.21,64.0
+482,Ethan,Schmidt,qphillips@example.net,Manitoba,Shawnhaven,Lost,6,2022-04-02,74.43,0.01,7443.0
+483,Nicholas,Lopez,harveymichael@example.net,Nova Scotia,West Jennifer,Loyal,1,2022-06-27,229.75,0.01,22975.0
+484,Dominique,Ryan,rlee@example.com,Ontario,New Justin,At Risk,2,2022-10-15,185.93,22.89,8.12
+485,Robert,Morris,millscarl@example.org,Alberta,Port Anthony,Loyal,1,2022-08-17,195.01,3.2,60.94
+486,Daniel,Lee,duncanmary@example.net,British Columbia,Foxshire,Potential,6,2022-12-12,106.99,0.01,10699.0
+487,Jonathan,Diaz,smithsamantha@example.net,New Brunswick,Hebertland,Potential,2,2022-11-22,107.41,23.9,4.49
+488,Taylor,Fowler,angela65@example.net,Ontario,Port Christinahaven,Champions,2,2023-02-14,702.29,16.29,43.11
+489,Billy,Jones,christian38@example.org,Ontario,Lake Jerryfurt,Loyal,6,2022-01-02,229.03,6.38,35.9
+490,Jake,Fox,ashleymeza@example.net,Saskatchewan,Reeseshire,Loyal,3,2022-11-18,294.16,6.53,45.05
+491,Michael,Ellis,kandrade@example.org,Alberta,Wagnerburgh,Potential,2,2022-01-20,112.92,23.53,4.8
+492,Amanda,Greene,rachel85@example.com,Ontario,Duranchester,Loyal,3,2022-06-10,319.13,4.51,70.76
+493,Margaret,Morris,annalewis@example.net,Quebec,Michaelmouth,Lost,6,2022-12-13,56.54,0.31,182.39
+494,Seth,Sanders,birdcaitlin@example.net,Quebec,West Adam,Potential,2,2022-01-01,87.03,16.31,5.34
+495,Tracey,Lewis,andrew48@example.net,Ontario,North Benjamin,Lost,3,2022-01-07,71.14,10.8,6.59
+496,Michael,Taylor,pamela33@example.com,Quebec,Christopherfurt,Potential,4,2022-03-12,123.78,3.68,33.64
+497,Ashley,Robinson,cummingslaura@example.org,Quebec,Petersenshire,Champions,3,2022-11-24,522.31,1.56,334.81
+498,Lori,Davis,benjamin96@example.org,Ontario,Port Matthewchester,Loyal,2,2022-08-01,328.69,24.96,13.17
+499,Robert,Parrish,julieatkinson@example.org,Ontario,Brownhaven,Loyal,6,2022-04-05,242.53,3.81,63.66
+500,Blake,Fernandez,markwolfe@example.org,British Columbia,Lake Jessicafurt,Lost,5,2022-06-12,38.07,27.59,1.38
+501,Tasha,Mullins,walkerkeith@example.com,Ontario,East Matthew,Lost,2,2022-03-20,39.39,20.52,1.92
+502,Thomas,Mcgee,zbaker@example.net,Quebec,Ayalaberg,Lost,1,2022-06-13,39.0,1.09,35.78
+503,Kathleen,Castillo,tonypearson@example.org,Quebec,East Charles,Loyal,3,2022-01-02,482.13,11.57,41.67
+504,Kimberly,Morris,rodriguezrobert@example.com,British Columbia,Jamesstad,Potential,6,2023-02-12,54.67,7.21,7.58
+505,Brittney,Johnson,gary59@example.com,Quebec,South Brady,At Risk,2,2022-02-14,102.21,17.28,5.91
+506,Lisa,Gonzalez,eric11@example.net,New Brunswick,East Stacyberg,Potential,5,2022-10-21,121.77,27.78,4.38
+507,Misty,Wilkins,cooperlinda@example.com,Ontario,Ruizmouth,Champions,2,2022-03-26,1145.72,17.45,65.66
+508,Jason,Medina,amychristensen@example.net,British Columbia,Deanberg,Champions,5,2022-12-03,506.99,28.96,17.51
+509,Heather,Barnett,qaguilar@example.net,Ontario,West Georgeport,Loyal,3,2022-01-18,409.93,4.81,85.22
+510,James,Horton,brian01@example.com,Ontario,Elizabethstad,At Risk,6,2022-10-19,89.91,2.62,34.32
+511,Michelle,Smith,yhall@example.net,Ontario,West Toddside,At Risk,1,2023-04-07,180.2,0.01,18020.0
+512,Christopher,Gonzalez,tcastro@example.org,Ontario,East Sandraport,Loyal,1,2022-01-08,475.45,7.78,61.11
+513,Matthew,Long,andrewsutton@example.com,Ontario,Joelhaven,Loyal,2,2022-10-22,191.4,24.33,7.87
+514,Joshua,Brown,natasha08@example.com,Ontario,East Matthew,Potential,5,2022-05-18,114.76,21.22,5.41
+515,Philip,Taylor,rmeyer@example.net,Alberta,South John,Champions,5,2022-02-14,730.25,28.48,25.64
+516,Eric,Waller,shane23@example.net,Ontario,New Amber,At Risk,1,2022-08-16,198.62,0.95,209.07
+517,Lauren,Huffman,haley82@example.com,Ontario,Lake Sarah,Champions,1,2022-01-12,477.24,1.14,418.63
+518,Sally,Stewart,whitemary@example.org,Ontario,Port Lucaschester,Champions,1,2022-04-19,1032.12,0.01,103212.0
+519,Susan,Turner,edwin31@example.org,Quebec,North Kathryn,At Risk,5,2023-12-17,102.07,21.32,4.79
+520,Cheryl,Adams,caitlynhall@example.org,Ontario,Christopherfort,Lost,2,2022-10-04,65.36,19.44,3.36
+521,Dennis,Mathis,xjoseph@example.org,Alberta,Henryberg,Champions,4,2022-05-14,897.49,0.01,89749.0
+522,Frank,Perez,aduran@example.com,Ontario,Walkerborough,Lost,6,2023-12-10,24.34,5.9,4.13
+523,Katherine,Jones,fcamacho@example.net,Ontario,Michellebury,Lost,6,2022-12-19,20.41,7.67,2.66
+524,Ronald,Parsons,zcortez@example.net,Quebec,New Danielmouth,Potential,1,2023-06-23,91.68,0.01,9168.0
+525,Margaret,Williams,aprilfoster@example.net,British Columbia,New Paulton,At Risk,1,2022-01-08,148.25,4.11,36.07
+526,James,Gonzales,kim47@example.org,Quebec,Phillipston,Potential,2,2022-11-29,94.6,19.12,4.95
+527,Hannah,Mckee,cgallegos@example.org,Quebec,East Kimberlyside,Potential,2,2022-03-03,53.52,16.38,3.27
+528,Derek,Gutierrez,djohnson@example.net,British Columbia,South Christopher,At Risk,5,2022-01-07,219.1,21.84,10.03
+529,Mario,Wong,jennifermartinez@example.org,Alberta,Waltersland,Champions,2,2022-12-15,628.77,25.92,24.26
+530,Alexandria,Cruz,nicholasjames@example.org,Manitoba,Arianaberg,Potential,6,2022-01-15,76.95,7.65,10.06
+531,Fernando,Thomas,barneskyle@example.com,Ontario,Courtneyville,Potential,7,2022-09-16,48.21,4.6,10.48
+532,Rachel,Horne,deanjohnny@example.com,Saskatchewan,Foleyside,At Risk,3,2022-12-09,81.98,2.24,36.6
+533,Lindsey,Franklin,lyoung@example.net,British Columbia,Chavezmouth,Loyal,2,2023-06-06,267.28,18.52,14.43
+534,Christopher,Greene,nicoleramirez@example.net,Ontario,North Jack,At Risk,1,2022-03-03,116.91,5.82,20.09
+535,Brian,Bailey,melissaestrada@example.net,British Columbia,Markland,Champions,2,2022-01-05,901.76,21.78,41.4
+536,Brandon,Butler,evanmitchell@example.net,Ontario,South Kara,Loyal,2,2022-01-20,411.95,17.07,24.13
+537,Michael,Johnson,marcus61@example.com,Nova Scotia,West Thomasville,Loyal,2,2023-04-17,318.18,19.03,16.72
+538,Heather,Hill,swarren@example.org,Ontario,North Ashleyhaven,Potential,1,2023-09-09,46.18,2.81,16.43
+539,Vanessa,Webb,ronald54@example.net,Ontario,Sarashire,Loyal,1,2022-07-22,367.78,1.96,187.64
+540,Tyler,Daniel,lvasquez@example.net,Ontario,Lake Kelly,At Risk,5,2022-06-27,107.31,19.36,5.54
+541,James,Wilson,hgarrett@example.net,Saskatchewan,Port Christina,Potential,3,2023-04-09,53.34,3.6,14.82
+542,Robert,Williams,ann30@example.net,Manitoba,Lake Juan,Potential,7,2022-02-09,49.14,11.89,4.13
+543,Kristy,Parker,katie15@example.com,Ontario,Ramseytown,Potential,5,2022-01-07,148.89,20.09,7.41
+544,Marilyn,Lee,sandra77@example.org,Alberta,South Eric,At Risk,2,2022-03-26,91.81,25.51,3.6
+545,Steven,Grimes,steven60@example.net,Manitoba,Annettemouth,At Risk,4,2023-06-25,210.16,0.01,21016.0
+546,Angela,Smith,lauren51@example.org,Ontario,Marymouth,Champions,1,2022-08-08,470.03,4.68,100.43
+547,Tonya,Sims,ashleyprice@example.net,British Columbia,Port Kimberlyport,Loyal,2,2022-03-30,188.4,18.7,10.07
+548,Janet,Edwards,nelsonchristopher@example.org,British Columbia,Shannonport,Lost,6,2022-11-23,63.76,6.48,9.84
+549,Javier,Turner,brooksbenjamin@example.org,Alberta,South Williamfort,Champions,2,2022-04-09,583.11,19.92,29.27
+550,Rebecca,Moore,sandra84@example.com,Quebec,Port Monica,Potential,4,2022-05-16,97.26,7.51,12.95
+551,Lynn,Hurley,jamiejohnson@example.com,Quebec,North Larryton,Champions,1,2022-02-18,979.84,6.62,148.01
+552,Gloria,Wheeler,cookpamela@example.org,Quebec,Andrewport,Loyal,2,2022-04-26,231.93,25.67,9.04
+553,Danielle,Clark,jameshill@example.com,Manitoba,Lambertview,Loyal,2,2022-02-12,281.5,22.0,12.8
+554,Edward,Hill,mullenanita@example.org,Quebec,New Michael,At Risk,7,2022-02-14,187.54,10.55,17.78
+555,Lucas,Thomas,audrey21@example.com,Quebec,Amberton,Potential,4,2022-09-19,89.56,4.83,18.54
+556,David,Ruiz,rodriguezbrian@example.com,British Columbia,Whiteshire,Loyal,6,2022-04-14,196.98,3.82,51.57
+557,Crystal,Vaughn,tjensen@example.com,Ontario,Lake Katherine,Champions,1,2022-11-16,465.62,6.9,67.48
+558,Lisa,Miller,fbradley@example.net,Quebec,Davisport,Lost,2,2022-01-27,37.38,25.35,1.47
+559,Gabrielle,Mckinney,oruiz@example.org,British Columbia,Robertafurt,At Risk,5,2022-03-28,112.22,22.29,5.03
+560,Isaac,Stark,kristina57@example.com,Ontario,North Thomasstad,Champions,5,2022-04-07,770.35,19.04,40.46
+561,Timothy,Singleton,katrina99@example.org,Saskatchewan,South Lisaville,Champions,3,2022-08-08,786.43,11.64,67.56
+562,Mark,Banks,amanda69@example.com,Quebec,New John,Potential,1,2022-10-03,53.71,0.01,5371.0
+563,Erik,Olson,petersonlisa@example.net,Saskatchewan,Muellerchester,Loyal,7,2022-02-25,445.79,7.97,55.93
+564,Ashley,Peterson,gilbertcaldwell@example.net,Quebec,Wilsonmouth,Champions,7,2023-01-31,747.42,12.56,59.51
+565,Mark,Davis,zthompson@example.org,Ontario,Lake Lisafurt,Lost,2,2022-01-31,79.47,16.06,4.95
+566,Mark,Newman,davislisa@example.net,Ontario,Port Dwayneberg,Loyal,3,2022-01-06,397.53,9.42,42.2
+567,Shawn,Carter,rgonzalez@example.com,British Columbia,Ashleyport,At Risk,5,2022-11-14,192.16,21.92,8.77
+568,Samantha,Zuniga,veronica90@example.net,Ontario,Abbottport,Champions,7,2022-09-30,986.57,11.21,88.01
+569,Bryan,Santana,smithann@example.com,Ontario,Port Juliantown,At Risk,2,2022-02-12,150.29,21.65,6.94
+570,Joe,Park,tgarrett@example.com,Ontario,Jamesside,Lost,1,2022-01-04,45.01,6.73,6.69
+571,Jason,Thompson,jacobcruz@example.com,Quebec,Mooreberg,At Risk,7,2022-02-21,142.25,13.69,10.39
+572,Dennis,Jones,thomasnicole@example.net,Ontario,Proctorberg,Lost,1,2022-04-07,70.28,0.01,7028.0
+573,Christopher,May,ydalton@example.net,Quebec,Hansonmouth,At Risk,1,2023-01-16,105.56,0.01,10556.0
+574,William,Arnold,ocruz@example.org,Quebec,Jacobsshire,Loyal,1,2022-12-23,311.95,1.07,291.54
+575,Tyrone,Simon,robert89@example.com,Quebec,North Ashleystad,Potential,2,2022-01-16,146.05,21.3,6.86
+576,Daniel,Olson,thomasjessica@example.com,British Columbia,Blackhaven,Loyal,3,2022-06-25,473.96,1.9,249.45
+577,Pamela,Davis,qmccoy@example.net,British Columbia,Lake Cynthiashire,Loyal,2,2022-08-14,495.42,23.74,20.87
+578,Larry,Brown,amanda07@example.com,Quebec,Berrymouth,At Risk,4,2022-02-17,122.38,5.98,20.46
+579,Robert,Yu,keith09@example.net,Ontario,Jessicashire,Loyal,1,2022-08-24,459.93,4.03,114.13
+580,Jorge,Soto,ashleydouglas@example.com,Ontario,West Toddberg,Champions,1,2022-06-29,465.67,0.01,46567.0
+581,William,York,johnathan94@example.com,Saskatchewan,Alexisville,Loyal,6,2022-05-08,284.8,7.39,38.54
+582,Cassandra,Kent,donnawood@example.org,Quebec,Kimberlybury,At Risk,1,2022-02-25,167.79,0.01,16779.0
+583,Todd,Lloyd,cooperchristopher@example.org,Nova Scotia,Port Tyler,At Risk,5,2023-03-02,145.41,20.7,7.02
+584,Victoria,Townsend,donnabarber@example.org,British Columbia,New Jessica,Champions,2,2022-05-25,493.44,17.37,28.41
+585,Michael,May,williamssteven@example.com,Ontario,Thomasside,Potential,1,2022-12-07,81.16,3.94,20.6
+586,Jesus,Vega,jwells@example.net,British Columbia,Smithmouth,Loyal,8,2023-08-07,187.85,10.05,18.69
+587,Patrick,Stewart,davisamanda@example.com,British Columbia,Bishopview,Lost,5,2022-02-05,46.08,25.71,1.79
+588,Matthew,Adams,scottbreanna@example.com,British Columbia,Lake Emily,Lost,4,2022-04-24,48.18,0.12,401.5
+589,Kaylee,Meyer,lawrencesmith@example.org,Quebec,North Roberthaven,Potential,1,2022-09-14,119.02,0.01,11902.0
+590,Dalton,Griffin,jessicaking@example.org,Ontario,New Christopherborough,Potential,2,2023-05-07,96.82,18.29,5.29
+591,Stephanie,Little,millercassandra@example.com,Quebec,North Heather,Loyal,5,2022-07-06,248.65,26.33,9.44
+592,Jon,Owens,fowlersandra@example.com,Quebec,Schwartzmouth,At Risk,3,2022-03-23,161.65,1.98,81.64
+593,Jonathan,Norman,kimberly66@example.com,British Columbia,West Stephanieview,Potential,6,2022-02-15,74.85,0.56,133.66
+594,Gregory,Jones,chelseywhite@example.com,Alberta,East Amberchester,Champions,2,2022-04-21,958.47,24.24,39.54
+595,Jeffery,Schneider,gbaldwin@example.org,British Columbia,North Ashleyview,Loyal,7,2022-07-07,217.26,9.97,21.79
+596,Kimberly,Smith,ohernandez@example.org,Ontario,Lake Peterberg,Loyal,1,2022-12-15,487.58,0.01,48758.0
+597,Isabel,Conway,robertsonshelby@example.com,Saskatchewan,Grahamland,Loyal,3,2022-11-28,244.06,9.91,24.63
+598,Amber,Smith,imartinez@example.com,Ontario,Evelynfurt,Loyal,7,2022-07-08,355.03,10.84,32.75
+599,Brian,Shea,diazmelissa@example.com,Alberta,Port Steveport,Loyal,6,2022-08-20,368.89,5.74,64.27
+600,Deborah,Thompson,poncedonna@example.com,British Columbia,Mosleystad,Champions,2,2022-05-08,761.78,26.2,29.08
+601,Tom,Mcclure,imoss@example.org,Saskatchewan,North Jennifer,At Risk,1,2023-12-04,83.4,6.59,12.66
+602,Brittany,Burns,sparksdawn@example.com,Quebec,Levytown,At Risk,8,2022-03-27,121.58,19.9,6.11
+603,Benjamin,Brown,sullivanjason@example.net,British Columbia,Bentleyside,Lost,5,2022-12-08,75.38,19.58,3.85
+604,Edward,Riley,johnsondonald@example.net,Quebec,South Rebeccaton,At Risk,8,2022-03-04,113.03,10.21,11.07
+605,John,Banks,jacksonbrendan@example.com,Quebec,South Cherylshire,Lost,3,2023-02-26,40.61,4.18,9.72
+606,Caleb,Roth,crawfordlauren@example.org,Saskatchewan,Port Jamesmouth,Loyal,2,2022-04-07,467.76,22.64,20.66
+607,Lisa,Hendrix,rnguyen@example.net,Nova Scotia,West Mary,Potential,1,2022-05-29,96.9,2.78,34.86
+608,Laura,Duran,matthewmartinez@example.org,Alberta,Jacksonstad,Potential,4,2023-04-04,67.72,3.18,21.3
+609,Angela,Gonzales,andersonkylie@example.net,Ontario,Stricklandtown,Potential,5,2022-04-18,140.7,26.16,5.38
+610,Nichole,Miller,whitechristopher@example.net,Alberta,Robertfort,Champions,2,2023-12-12,1109.47,24.15,45.94
+611,Heather,Harris,alexandra63@example.org,Ontario,New Hectorfort,Loyal,1,2022-09-16,474.12,2.2,215.51
+612,Cheryl,Miller,michael08@example.org,Quebec,North Valerie,At Risk,1,2022-03-23,216.72,6.99,31.0
+613,Tiffany,Montgomery,stevensims@example.org,Ontario,Brianville,Lost,3,2022-08-07,73.22,8.04,9.11
+614,Laura,Jennings,kjimenez@example.net,Alberta,North Deannaport,Champions,7,2022-11-29,1126.3,8.14,138.37
+615,Jason,King,vwilliams@example.org,Quebec,East Kristen,Potential,1,2022-09-11,65.0,5.44,11.95
+616,Todd,Wilson,jenniferwatkins@example.com,Alberta,Gonzalezmouth,Potential,4,2022-11-09,120.81,7.11,16.99
+617,Jerry,Rodriguez,coreyrojas@example.org,British Columbia,Vanceland,Lost,7,2022-02-19,32.99,5.76,5.73
+618,Thomas,Washington,nthomas@example.com,Quebec,South Nathaniel,Loyal,4,2022-10-09,197.78,0.43,459.95
+619,Stephen,Lee,theresa35@example.org,Ontario,Lake Ashleyview,Loyal,1,2022-10-25,366.47,1.35,271.46
+620,Derek,York,wbarnes@example.com,Nova Scotia,West Cassandra,Champions,3,2022-07-28,1069.93,4.22,253.54
+621,Kristine,Little,belindatran@example.org,Quebec,South Melodyfort,Loyal,5,2023-02-12,342.34,26.23,13.05
+622,Michelle,Robinson,rhood@example.org,Ontario,Fitzgeraldbury,Potential,1,2023-02-27,139.32,1.62,86.0
+623,John,Hamilton,patriciavargas@example.org,Quebec,South Tinaton,Champions,3,2022-05-22,603.4,8.18,73.77
+624,Vickie,Quinn,simmonsphillip@example.net,Alberta,South Tylerland,Lost,2,2022-08-25,41.03,19.7,2.08
+625,Angela,Smith,idodson@example.com,Alberta,Johnland,Loyal,4,2022-04-05,280.18,0.74,378.62
+626,Allen,Caldwell,jacquelinehodge@example.net,Ontario,South Stevenberg,At Risk,3,2023-05-08,150.54,7.45,20.21
+627,Morgan,Sullivan,courtney01@example.com,Quebec,Alyssaport,Loyal,1,2022-02-08,236.68,0.01,23668.0
+628,Ronald,Nelson,kristinmiller@example.com,Quebec,New Sierrastad,Potential,2,2022-09-02,62.15,23.29,2.67
+629,Pamela,Rodriguez,steven05@example.com,British Columbia,Lake Angelica,At Risk,4,2022-05-23,166.28,3.22,51.64
+630,Carl,Fletcher,devonrogers@example.net,British Columbia,Lake Timothyshire,Champions,3,2022-07-29,502.13,3.58,140.26
+631,Monica,Warner,lukehurst@example.net,British Columbia,Ramirezland,Loyal,6,2022-07-17,228.91,4.6,49.76
+632,Nathan,Chavez,harrisonamanda@example.net,Saskatchewan,Shannonstad,Loyal,4,2022-09-27,330.6,0.01,33060.0
+633,Lauren,Dougherty,lopeznicole@example.org,Quebec,South Rachaelport,Loyal,4,2023-03-29,313.38,1.12,279.8
+634,Susan,Jones,joshuaterry@example.com,Saskatchewan,Port James,Loyal,1,2022-01-27,385.71,0.01,38571.0
+635,Stephanie,Johnson,imontes@example.org,Ontario,Reedmouth,Potential,5,2022-08-28,65.37,20.4,3.2
+636,Joan,Smith,bryanwiggins@example.org,Saskatchewan,Robertmouth,Loyal,1,2022-01-24,486.96,3.85,126.48
+637,Diana,Buchanan,swatkins@example.net,Ontario,Ellisshire,Loyal,1,2023-01-04,228.53,5.58,40.96
+638,David,Clarke,kristinaperez@example.com,Ontario,Kaylaton,Loyal,2,2022-03-13,277.57,16.8,16.52
+639,Eddie,Mitchell,christinemartin@example.net,Ontario,Ianburgh,Loyal,2,2022-03-27,382.85,22.51,17.01
+640,Mary,Schwartz,evanwilson@example.com,Quebec,South Jorge,Lost,1,2023-02-25,51.46,2.79,18.44
+641,Jack,Hart,wadetiffany@example.org,Ontario,Shaneburgh,Loyal,5,2022-03-09,180.74,25.9,6.98
+642,Amanda,Martinez,sullivanvictor@example.org,British Columbia,Reillyberg,Potential,4,2022-03-04,83.43,0.01,8343.0
+643,Adam,Rodgers,deborah47@example.com,Quebec,Port Annette,At Risk,2,2022-04-12,187.45,17.86,10.5
+644,Rebecca,Ramos,dennisrachel@example.org,Ontario,West Angelbury,Potential,1,2022-06-12,93.58,0.01,9358.0
+645,Sean,Davis,franklinjames@example.net,Quebec,Port Shari,Loyal,1,2022-02-07,292.46,0.01,29246.0
+646,Joshua,Johnson,frhodes@example.net,Alberta,Leemouth,Loyal,2,2022-02-13,324.25,20.11,16.12
+647,Carrie,Hunt,kerrmichael@example.org,Ontario,Woodstad,Lost,1,2022-04-02,23.64,0.01,2364.0
+648,Alexander,Cooper,tiffany81@example.org,Quebec,Figueroachester,Champions,4,2022-01-22,847.34,0.51,1661.45
+649,Linda,Roberts,achandler@example.org,British Columbia,East Jaredfort,Potential,2,2022-06-20,116.59,17.8,6.55
+650,Vanessa,Fox,carl96@example.org,Ontario,South Danielleview,Champions,2,2022-08-12,600.18,23.2,25.87
+651,Robert,Peters,jamescollier@example.com,Ontario,Williamsport,Lost,8,2022-07-12,34.64,15.04,2.3
+652,Mary,Torres,ywalker@example.org,Ontario,West Kevin,Lost,3,2022-08-28,51.73,9.1,5.68
+653,Danielle,Fields,valdezpatricia@example.com,Quebec,South Rebecca,Potential,1,2022-03-23,143.83,4.68,30.73
+654,Deanna,Johnson,trevor19@example.net,Ontario,Biancashire,Lost,2,2023-04-13,68.44,25.75,2.66
+655,Ryan,Scott,hmccann@example.com,Ontario,Port Jordanshire,Lost,2,2022-09-01,31.17,21.72,1.44
+656,Brian,Flores,michaelbrown@example.com,Quebec,Fieldsstad,Loyal,3,2022-01-31,342.48,3.69,92.81
+657,Brandon,Carter,palmerkatie@example.org,Quebec,New Karenside,Potential,1,2022-02-21,148.6,3.58,41.51
+658,Marcus,Stewart,joseph51@example.net,Nova Scotia,Madelinetown,At Risk,5,2022-05-15,177.57,19.72,9.0
+659,Derrick,Campbell,kjenkins@example.org,Ontario,East Wesley,At Risk,3,2022-11-28,93.09,4.44,20.97
+660,Marie,Pope,butlersabrina@example.org,British Columbia,North Timothy,Champions,1,2022-12-18,1051.04,6.98,150.58
+661,Larry,Cox,mpreston@example.net,Ontario,Geraldport,Potential,1,2022-01-19,63.89,3.97,16.09
+662,Anthony,Olsen,davidbenson@example.net,Manitoba,West David,Loyal,7,2022-02-05,447.14,11.62,38.48
+663,David,Miller,joneskim@example.com,Quebec,East Danielhaven,Loyal,7,2022-07-20,482.13,8.28,58.23
+664,Brittany,Harrison,bradley40@example.org,Nova Scotia,New Jamieborough,At Risk,1,2022-05-22,129.02,5.1,25.3
+665,Jack,Bell,thomasjulie@example.com,Ontario,Michaelhaven,Loyal,5,2022-03-07,407.35,27.1,15.03
+666,Kimberly,Austin,garciabelinda@example.org,Alberta,Lake James,At Risk,3,2022-01-17,196.85,12.02,16.38
+667,Juan,Winters,beltrancorey@example.org,Quebec,Richardsonshire,Lost,3,2022-10-07,72.72,2.3,31.62
+668,Jacob,Nunez,whitemichael@example.com,Quebec,Lewisbury,At Risk,6,2022-01-06,166.41,5.61,29.66
+669,Rick,Juarez,david18@example.org,Manitoba,Farmerport,Potential,2,2022-07-28,64.22,18.81,3.41
+670,Angela,Williams,tristan64@example.com,Quebec,Gloriamouth,Potential,4,2022-04-02,129.11,0.01,12911.0
+671,Jeremiah,Russell,elopez@example.com,Ontario,Harryfort,Champions,2,2022-01-16,497.07,18.83,26.4
+672,Emily,Sanders,wilsonralph@example.net,Ontario,Lake Saraburgh,Lost,6,2022-04-28,35.56,1.59,22.36
+673,Calvin,Hester,james61@example.org,Ontario,Hardyview,Potential,3,2022-01-17,142.71,11.76,12.14
+674,Kathy,Miranda,katelyn65@example.com,Ontario,Archerhaven,Potential,1,2022-11-18,97.6,0.01,9760.0
+675,Joshua,Tate,martineztracy@example.org,New Brunswick,North Cory,Lost,3,2022-02-01,32.91,4.76,6.91
+676,Brian,Jones,stantonpatrick@example.net,Alberta,Ericville,Potential,5,2022-08-14,106.8,24.36,4.38
+677,Kathleen,Guerrero,msparks@example.com,Ontario,Henryview,Potential,2,2022-09-19,91.13,17.55,5.19
+678,Amy,Pacheco,cisnerosanthony@example.com,Saskatchewan,South Shannonfurt,Lost,6,2022-02-13,73.45,7.8,9.42
+679,Scott,Johnson,angeladalton@example.com,Ontario,South Ryan,Lost,1,2022-04-07,67.14,5.99,11.21
+680,Larry,Price,carrolltracy@example.net,Alberta,Alvarezburgh,At Risk,5,2022-08-08,83.56,29.84,2.8
+681,William,Myers,ygarza@example.net,Alberta,Katieport,Potential,4,2022-01-26,54.23,0.01,5423.0
+682,Luke,Johnson,andersonmichael@example.net,Ontario,Port Patriciamouth,Lost,4,2022-08-22,36.59,6.27,5.84
+683,Oscar,Patterson,robert03@example.org,Ontario,Lake Larry,At Risk,2,2022-04-24,151.76,16.27,9.33
+684,Christopher,Watts,danny20@example.net,Alberta,Benjaminchester,Lost,1,2023-01-04,42.55,5.94,7.16
+685,Ashley,Valenzuela,andrew79@example.org,Ontario,Nicholasfurt,Loyal,3,2022-06-28,420.23,1.96,214.4
+686,Marcus,Davis,rgarcia@example.org,Alberta,Tylermouth,Lost,5,2023-03-13,78.62,19.87,3.96
+687,Garrett,Evans,oharris@example.org,Ontario,West Joseph,Potential,4,2022-01-30,143.73,5.16,27.85
+688,Kenneth,Berry,claudiarubio@example.net,Quebec,New Matthewland,Lost,6,2022-01-03,24.44,0.01,2444.0
+689,Ashley,Schmidt,yclark@example.org,Ontario,Williamport,Loyal,6,2022-01-02,372.35,6.28,59.29
+690,Ryan,Fernandez,robertking@example.net,Ontario,Powersside,Loyal,1,2022-07-08,415.29,4.11,101.04
+691,Henry,Smith,barbaralewis@example.net,Ontario,Adamsside,Potential,5,2022-09-11,133.49,21.66,6.16
+692,Lisa,Farrell,umichael@example.net,Quebec,New Jamesmouth,Lost,8,2022-04-20,66.36,13.72,4.84
+693,Dylan,Hernandez,megan65@example.org,Alberta,Port Robert,Potential,1,2022-07-12,105.36,5.2,20.26
+694,Madison,Lucas,gloria36@example.org,Quebec,East Jamesbury,At Risk,6,2022-04-15,103.29,4.41,23.42
+695,Laura,Collins,bcastro@example.com,Quebec,East Erikberg,Lost,5,2023-06-06,31.95,24.99,1.28
+696,Anthony,Clarke,donna20@example.net,British Columbia,Caseyton,Potential,6,2022-12-03,65.71,0.16,410.69
+697,Michele,Miller,michelle65@example.net,Ontario,South Sherryberg,Potential,6,2022-03-21,58.17,7.51,7.75
+698,Joel,Duncan,boydmaria@example.net,British Columbia,Tylerland,Potential,1,2023-02-02,118.04,6.92,17.06
+699,John,Martinez,mark96@example.net,British Columbia,South Jeffery,Potential,4,2022-02-14,113.62,1.99,57.1
+700,Daniel,Lewis,scott49@example.org,Ontario,Fergusonville,Loyal,1,2023-08-13,417.92,7.07,59.11
+701,Leslie,Coleman,sylviasuarez@example.org,Ontario,Thomasstad,Loyal,3,2022-12-05,495.59,3.43,144.49
+702,Lori,Smith,skinnereileen@example.org,British Columbia,West Angela,Loyal,2,2022-03-31,262.72,18.36,14.31
+703,Kyle,Mullen,rebecca18@example.org,Ontario,Pricefurt,Loyal,5,2022-05-24,297.79,19.01,15.66
+704,Sara,Hardin,christopher34@example.org,Ontario,South Crystal,Lost,7,2022-05-13,34.28,9.43,3.64
+705,Natasha,Wang,rmccormick@example.org,British Columbia,Ruizchester,Champions,1,2023-07-12,647.48,1.25,517.98
+706,Sara,Cook,gmcdowell@example.org,Ontario,Williamstad,Lost,2,2022-01-04,21.4,24.23,0.88
+707,Robert,Daniel,shawn00@example.net,Ontario,Lake Scott,Lost,2,2022-05-03,38.77,16.08,2.41
+708,Danielle,Smith,courtneyedwards@example.org,Alberta,East Johnberg,Potential,2,2022-02-26,141.57,26.09,5.43
+709,Melanie,Jennings,shannon24@example.org,Ontario,Laurenborough,Potential,2,2022-01-24,80.57,19.15,4.21
+710,Christopher,Richardson,kwalter@example.org,British Columbia,North Sandrabury,Champions,1,2022-09-12,585.48,0.01,58548.0
+711,Rebecca,Mccann,josechristian@example.org,Quebec,Williamsonview,Lost,1,2022-04-18,67.44,3.36,20.07
+712,Edward,Rubio,staceywilson@example.net,Saskatchewan,Ayalamouth,Potential,2,2022-07-02,72.64,19.11,3.8
+713,Margaret,Snyder,jenniferlee@example.com,Ontario,Juliefurt,Lost,2,2023-02-10,58.7,17.39,3.38
+714,David,Gates,wandacampbell@example.net,Quebec,South Henry,Potential,6,2022-01-04,42.23,4.83,8.74
+715,Laura,Johnson,joe73@example.com,British Columbia,Millerfort,Lost,2,2022-03-14,79.48,15.61,5.09
+716,Dean,Morris,tmcdaniel@example.com,New Brunswick,Fitzgeraldview,Champions,2,2022-01-28,1193.41,21.85,54.62
+717,Charles,Hawkins,cookjimmy@example.com,Quebec,North Jonfurt,At Risk,1,2022-01-17,214.22,1.75,122.41
+718,Kevin,Foster,david80@example.net,Saskatchewan,West Geoffrey,Loyal,2,2022-02-16,276.47,26.22,10.54
+719,Trevor,Morgan,uanderson@example.net,Saskatchewan,Thomasville,Loyal,6,2023-10-02,366.35,6.13,59.76
+720,Lawrence,Good,rsavage@example.net,Alberta,Saraport,At Risk,4,2022-07-04,140.54,2.35,59.8
+721,Raven,Baker,zachary62@example.com,Nova Scotia,Gallagherberg,Potential,3,2022-10-26,132.49,6.7,19.77
+722,Angela,Livingston,jbrown@example.org,British Columbia,East Barry,Lost,8,2023-01-09,31.26,12.97,2.41
+723,Jorge,Mccarthy,fwilson@example.org,Alberta,Kellyside,Champions,4,2022-12-06,979.81,0.47,2084.7
+724,Todd,Vasquez,daviddavis@example.com,British Columbia,Port Gary,Potential,1,2022-05-05,115.7,2.03,57.0
+725,William,Nelson,brandybonilla@example.net,Ontario,South Samantha,Loyal,3,2022-01-05,349.62,12.15,28.78
+726,John,Jimenez,clayanthony@example.net,British Columbia,South Nathanielville,Champions,2,2023-02-12,767.56,16.2,47.38
+727,Mary,Hernandez,stevensjasmine@example.com,Ontario,Fullerview,Loyal,1,2023-01-08,397.13,4.67,85.04
+728,Brooke,Smith,douglasstephanie@example.com,Alberta,East Michelle,Loyal,5,2022-01-17,226.94,19.05,11.91
+729,Laurie,Campbell,manningamy@example.net,Ontario,Davisview,Potential,8,2022-04-20,94.36,16.08,5.87
+730,Gregory,Hanna,ndavis@example.org,Saskatchewan,Chanport,Champions,5,2022-03-29,1086.02,26.86,40.43
+731,Deborah,Best,davidhenry@example.com,British Columbia,Rebeccaberg,At Risk,5,2022-02-13,191.61,26.29,7.29
+732,Michael,Davis,william77@example.com,Ontario,Adamschester,Potential,1,2022-09-08,117.51,5.65,20.8
+733,Christopher,Henderson,christina66@example.org,Ontario,New Matthewmouth,Potential,1,2022-03-12,59.55,0.01,5955.0
+734,Erica,Holland,sarahrose@example.net,Ontario,West Taylorland,Loyal,6,2022-06-20,208.83,6.92,30.18
+735,Rebecca,Woods,traceysutton@example.com,Quebec,New Ronald,Loyal,8,2022-03-03,406.98,14.73,27.63
+736,Ashley,Arnold,palmerwilliam@example.com,Ontario,South Donnashire,Lost,7,2022-04-19,56.84,12.08,4.71
+737,Lisa,Kelly,mackallen@example.net,Ontario,Whiteburgh,Champions,1,2022-02-05,841.87,4.2,200.45
+738,Megan,Williams,tmcdowell@example.com,Alberta,Toddmouth,Potential,5,2022-07-26,48.65,24.69,1.97
+739,Cindy,Baker,jasonmiller@example.net,Quebec,Monicaville,Potential,5,2022-01-19,55.8,24.62,2.27
+740,Ryan,Smith,kwilson@example.net,Ontario,Stevensfurt,At Risk,5,2022-06-27,180.2,26.27,6.86
+741,Misty,Church,nturner@example.com,Ontario,Ballardland,At Risk,2,2022-07-18,177.62,16.37,10.85
+742,David,Smith,cabreraheather@example.org,Ontario,East Timothyberg,Loyal,4,2022-12-18,412.37,0.01,41237.0
+743,Debra,Graham,christophercarrillo@example.org,Ontario,Hendersonville,Loyal,2,2022-06-04,216.01,17.84,12.11
+744,Gabriel,Hernandez,emaynard@example.org,Ontario,Richardsborough,Loyal,7,2022-05-11,436.74,13.73,31.81
+745,Kenneth,Gallegos,awilliams@example.org,Ontario,Pettyfort,At Risk,6,2022-04-06,146.9,0.01,14690.0
+746,Jillian,Larson,benjamin67@example.net,Quebec,Hallton,Loyal,1,2022-03-22,423.65,0.96,441.3
+747,Allison,Henderson,angela46@example.com,British Columbia,South Cindystad,Potential,6,2022-08-24,123.96,7.53,16.46
+748,Shane,Graham,keithlee@example.com,Ontario,Hallbury,Loyal,7,2022-08-15,225.52,8.63,26.13
+749,Briana,Cohen,sanderson@example.net,Saskatchewan,Moyerstad,Lost,4,2023-02-20,28.33,3.33,8.51
+750,Laura,Marsh,christycampbell@example.net,Ontario,Lake Timothyburgh,Champions,2,2022-05-15,1173.51,21.13,55.54
+751,James,Obrien,leonsherry@example.com,British Columbia,Jimmyside,Champions,1,2022-01-04,680.05,7.12,95.51
+752,Brandon,Smith,michael22@example.net,Ontario,Port Brycechester,Potential,1,2022-01-17,55.78,0.95,58.72
+753,Daniel,Perez,tomchaney@example.com,Ontario,Port Natalieview,Loyal,4,2023-02-28,295.41,3.57,82.75
+754,Paula,Castaneda,mccarthysara@example.com,Alberta,Estesville,Loyal,8,2022-01-10,420.18,12.57,33.43
+755,Theresa,Harrington,colonbobby@example.org,Ontario,Lake David,At Risk,2,2022-05-17,185.35,18.73,9.9
+756,Jamie,Ward,jean87@example.net,Quebec,East Deborahmouth,Champions,6,2022-02-23,1078.31,3.25,331.79
+757,Lori,Martinez,scottperry@example.org,British Columbia,Port Lisa,Potential,2,2023-03-24,128.25,20.4,6.29
+758,Matthew,Wagner,adamsjennifer@example.com,Manitoba,Crystalbury,Lost,1,2022-02-23,62.37,0.01,6237.0
+759,Edward,Molina,icobb@example.com,Alberta,Hardinmouth,Champions,5,2022-09-05,904.89,19.05,47.5
+760,Stephanie,Black,sherry72@example.org,Ontario,North Matthewfurt,Champions,4,2022-06-02,599.81,4.81,124.7
+761,Tina,Martin,longbenjamin@example.net,British Columbia,New Brian,Loyal,5,2023-08-26,263.02,21.29,12.35
+762,Crystal,Reeves,robert84@example.net,Alberta,Reginatown,At Risk,2,2022-01-06,190.7,19.79,9.64
+763,Margaret,Mccullough,isabellagriffin@example.org,Manitoba,Terryfurt,Potential,6,2022-03-10,48.89,1.35,36.21
+764,Kimberly,Ibarra,johnsonmatthew@example.net,Ontario,New Victoria,Lost,2,2022-07-21,74.48,25.62,2.91
+765,Justin,Davis,adrienne20@example.org,Nova Scotia,Johnport,Loyal,7,2023-08-18,383.61,4.57,83.94
+766,Jessica,Benitez,dennismckenzie@example.com,Quebec,Davidville,Potential,2,2022-12-04,102.94,23.46,4.39
+767,Shane,Armstrong,chaveztonya@example.net,Ontario,West Kevin,Potential,7,2023-02-25,81.79,3.6,22.72
+768,Elizabeth,Briggs,jenniferstone@example.org,Ontario,West Zacharyborough,At Risk,6,2022-07-31,80.57,7.47,10.79
+769,Mackenzie,Ward,thomasronald@example.com,Ontario,North Bryanberg,Loyal,3,2023-03-26,380.84,1.86,204.75
+770,Thomas,Griffin,erica69@example.net,Alberta,Wigginsshire,Lost,2,2022-07-04,69.62,19.57,3.56
+771,Victor,Henderson,fbarker@example.net,Ontario,Colonberg,Potential,5,2022-01-20,98.6,27.04,3.65
+772,William,Washington,tanderson@example.net,Ontario,Lake Jasonfort,Champions,7,2022-09-18,900.3,4.7,191.55
+773,Antonio,Moore,sandra19@example.com,Ontario,North Mikeport,Potential,1,2022-09-27,80.93,0.01,8093.0
+774,Billy,Hernandez,kevin54@example.com,British Columbia,Johnsonberg,Potential,2,2022-10-24,117.48,19.01,6.18
+775,Douglas,Lawrence,zunigakevin@example.com,British Columbia,East Lori,Lost,4,2022-10-30,77.69,0.01,7769.0
+776,Tracy,Martinez,carlos06@example.com,Ontario,Arielmouth,Potential,3,2022-05-21,84.99,11.67,7.28
+777,Kimberly,Alvarez,kathleenwagner@example.com,British Columbia,Contrerasberg,Loyal,5,2023-01-16,366.21,28.96,12.65
+778,Michelle,Nguyen,zhughes@example.com,Ontario,Lake Pamelaview,Potential,5,2022-01-27,111.74,26.57,4.21
+779,Debbie,Cline,armstronglaura@example.net,Ontario,Annville,Potential,3,2022-03-24,104.82,3.41,30.74
+780,Dawn,Miller,bernardaimee@example.com,British Columbia,North Dominiqueside,At Risk,3,2022-05-19,151.25,2.34,64.64
+781,Hector,Smith,johnthornton@example.net,Ontario,Millerside,Potential,5,2022-11-13,61.19,19.6,3.12
+782,Catherine,Morales,henrysarah@example.com,Quebec,Whitetown,Loyal,2,2022-05-05,469.26,17.36,27.03
+783,Michele,Stewart,christopher18@example.org,Ontario,Douglasview,Loyal,1,2022-01-02,359.96,6.24,57.69
+784,Kayla,Moore,dgregory@example.net,Quebec,Howardton,Champions,1,2023-01-01,669.83,0.01,66983.0
+785,Kenneth,Garcia,robertnguyen@example.com,Quebec,North Jamesshire,Loyal,8,2022-05-16,489.31,9.72,50.34
+786,Joel,Romero,ravery@example.org,Ontario,Stevenchester,Potential,2,2022-05-12,106.62,24.99,4.27
+787,Cameron,Johnson,robinsmith@example.net,Quebec,East Kathrynberg,Champions,4,2022-10-07,845.51,1.71,494.45
+788,Kevin,Russell,mathisvincent@example.org,Ontario,Amberburgh,Loyal,2,2022-05-01,203.71,19.41,10.5
+789,Kimberly,Medina,jali@example.com,British Columbia,North Lisaport,Champions,2,2023-02-28,447.68,26.27,17.04
+790,Denise,Jackson,mahoneytimothy@example.net,British Columbia,Maryfurt,Champions,2,2022-09-08,1119.06,25.26,44.3
+791,Yvette,Kirby,brendadixon@example.org,British Columbia,Lake Amanda,At Risk,4,2023-12-16,95.98,7.09,13.54
+792,Chad,Davis,rivasjessica@example.com,Alberta,Clarkhaven,At Risk,1,2022-05-01,133.02,0.01,13302.0
+793,Susan,Flores,cynthia74@example.org,Ontario,Matthewmouth,At Risk,6,2022-07-06,101.2,4.26,23.76
+794,Susan,Murphy,deborahsmith@example.com,Quebec,North Emilychester,Lost,2,2022-04-20,37.83,23.67,1.6
+795,Angela,Horton,ifarmer@example.org,Ontario,New Anthonymouth,At Risk,3,2022-02-08,117.53,1.35,87.06
+796,Emily,Gomez,wcarey@example.com,Alberta,Port Katrina,Potential,1,2023-02-17,106.48,0.01,10648.0
+797,Heidi,Smith,mwood@example.com,Ontario,East Juliaview,Loyal,5,2022-01-21,218.95,24.18,9.06
+798,Erin,Fletcher,christopheraustin@example.com,British Columbia,East Tina,Lost,4,2022-12-08,65.15,3.83,17.01
+799,Tammy,Johnson,tconway@example.net,Manitoba,North James,Potential,1,2022-10-12,84.73,0.01,8473.0
+800,Lori,Foster,ashley72@example.net,British Columbia,Lake Joanne,Loyal,1,2022-01-11,455.98,0.02,22799.0
