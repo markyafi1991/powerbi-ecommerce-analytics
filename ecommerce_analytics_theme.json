@@ -1,0 +1,176 @@
+{
+  "name": "ECommerce Analytics Dark Navy",
+  "dataColors": [
+    "#00D9FF",
+    "#1E77FF",
+    "#1EE68E",
+    "#FFB41E",
+    "#FF4E4E",
+    "#B41EFF",
+    "#7B9FFF",
+    "#00FFCC"
+  ],
+  "background": "#0C101F",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#1E77FF",
+  "good": "#1EE68E",
+  "neutral": "#FFB41E",
+  "bad": "#FF4E4E",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "title": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "background": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "calloutValue": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 28,
+          "fontBold": true
+        }],
+        "categoryLabels": [{
+          "show": true,
+          "color": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "header": [{ "show": false }],
+        "items": [{
+          "fontColor": { "solid": { "color": "#FFFFFF" } },
+          "background": { "solid": { "color": "#12192E" } },
+          "outline": "None",
+          "textSize": 11
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "valueAxis": [{
+          "gridlineColor": { "solid": { "color": "#1E2A4A" } },
+          "labelColor": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }],
+        "legend": [{
+          "labelColor": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 10
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "valueAxis": [{
+          "gridlineColor": { "solid": { "color": "#1E2A4A" } },
+          "labelColor": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }],
+        "legend": [{
+          "labelColor": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 10
+        }]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "valueAxis": [{
+          "gridlineColor": { "solid": { "color": "#1E2A4A" } },
+          "labelColor": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 10
+        }],
+        "legend": [{
+          "labelColor": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 10
+        }]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "legend": [{
+          "labelColor": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 10
+        }]
+      }
+    },
+    "multiRowCard": {
+      "*": {
+        "background": [{
+          "color": { "solid": { "color": "#0C101F" } },
+          "transparency": 100,
+          "show": false
+        }],
+        "border": [{ "show": false }],
+        "dataLabels": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "fontSize": 14,
+          "fontBold": true
+        }],
+        "categoryLabels": [{
+          "color": { "solid": { "color": "#7B9FFF" } },
+          "fontSize": 9
+        }]
+      }
+    }
+  }
+}
